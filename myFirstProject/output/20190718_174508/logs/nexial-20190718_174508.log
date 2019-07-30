@@ -1,0 +1,79 @@
+2019-07-18 17:45:08,804|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-18 17:45:08,804|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\Oxrbt\myFirstProject.data.xlsx
+2019-07-18 17:45:08,804|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-18 17:45:08,804|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-18 17:45:08,804|I|Thread-1|(DELAYED) [20190718_174508] [C:\projects\myFirstProject\artifact\script\myFirstProject.xlsx] resolve RUN ID as 20190718_174508
+2019-07-18 17:45:08,804|I|Thread-1|(DELAYED) [20190718_174508] [C:\projects\myFirstProject\artifact\script\myFirstProject.xlsx] new thread started
+2019-07-18 17:45:08,804|I|Thread-1|No predefined nexial-setup found
+2019-07-18 17:45:08,882|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-18 17:45:08,882|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-18 17:45:08,882|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-18 17:45:08,913|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-18 17:45:09,647|I|Thread-1|[20190718_174508] executing C:\projects\myFirstProject\artifact\script\myFirstProject.xlsx with 1 iteration(s)
+2019-07-18 17:45:09,647|I|Thread-1|[20190718_174508] create directory C:\projects\myFirstProject\output\20190718_174508\captures
+2019-07-18 17:45:09,647|I|Thread-1|[20190718_174508] create directory C:\projects\myFirstProject\output\20190718_174508\logs
+2019-07-18 17:45:19,881|I|Thread-1|[20190718_174508] merging test data to tmp file C:\projects\myFirstProject\output\20190718_174508\myFirstProject.20190718_174509.001.xlsx
+2019-07-18 17:45:19,881|I|Thread-1|refetching data from C:\projects\myFirstProject\artifact\data\myFirstProject.data.xlsx
+2019-07-18 17:45:20,725|I|Thread-1|[20190718_174508] test script and test data merged to C:\projects\myFirstProject\output\20190718_174508\myFirstProject.20190718_174509.001.xlsx
+2019-07-18 17:45:28,302|I|Thread-1|STARTS
+2019-07-18 17:45:28,318|I|Thread-1|myFirstProject.20190718_174509.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-18 17:45:28,318|I|Thread-1|myFirstProject.20190718_174509.001|Scenario - executing test scenario
+2019-07-18 17:45:28,318|I|Thread-1|myFirstProject.20190718_174509.001|Scenario|Activity 1 - executing activity
+2019-07-18 17:45:28,943|I|Thread-1|myFirstProject.20190718_174509.001|Scenario|Activity 1|#  5|base.verbose(text) - executing verbose(text)(Hello World! It's now $(sysdate|now|yyyy-MM-dd HH:mm:ss.S))
+2019-07-18 17:45:29,052|I|Thread-1|myFirstProject.20190718_174509.001|Scenario|Activity 1|#  5|base.verbose(text) - Hello World! It's now 2019-07-18 17:45:28.959
+2019-07-18 17:45:29,209|I|Thread-1|myFirstProject.20190718_174509.001|Scenario|Activity 1|#  5|base.verbose(text) - PASS 
+2019-07-18 17:45:30,177|I|Thread-1|[myFirstProject.20190718_174509.001|Scenario] saving test scenario
+2019-07-18 17:45:30,380|I|Thread-1|[20190718_174508] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\myFirstProject\output\20190718_174508\myFirstProject.20190718_174509.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 2062 ms
+» Test Steps:     1
+» Error(s):       0
+
+
+
+2019-07-18 17:45:45,790|I|Thread-1|[20190718_174508] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\myFirstProject\artifact\script\myFirstProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 37167 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         1
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\myFirstProject\output\20190718_174508\myFirstProject.20190718_174509.001.xlsx
+
+
+
+2019-07-18 17:45:46,110|I|main|[20190718_174508] [C:\projects\myFirstProject\artifact\script\myFirstProject.xlsx] now completed
+2019-07-18 17:45:46,110|I|main|[20190718_174508] all execution thread(s) have terminated
+2019-07-18 17:45:46,110|I|main|[20190718_174508] test run completed in about 37 seconds
+2019-07-18 17:45:46,235|I|main|No predefined nexial-setup found
+2019-07-18 17:45:46,280|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-18 17:45:46,280|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-18 17:45:46,280|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-18 17:45:46,280|I|main|generating HTML output for this execution to C:\projects\myFirstProject\output\20190718_174508\execution-output.html
+2019-07-18 17:45:46,966|I|main|generating JUnit XML output for this execution to C:\projects\myFirstProject\output\20190718_174508\junit.xml
+2019-07-18 17:45:47,029|I|main|generated JUnit report for this execution: C:\projects\myFirstProject\output\20190718_174508\junit.xml
+2019-07-18 17:45:47,029|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-18 17:45:47,029|I|main|skipped email notification as configured
+2019-07-18 17:45:47,029|I|main|exiting Nexial...
+2019-07-18 17:45:47,029|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 37 sec.
+| » Test Steps....: 1
+| » Passed........: 1
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-18 17:45:47,029|I|main|ALL PASSED!
+2019-07-18 17:45:47,029|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\myFirstProject\output\20190718_174508
+NEXIAL_EXECUTION_HTML: C:\projects\myFirstProject\output\20190718_174508\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\myFirstProject\output\20190718_174508\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0
