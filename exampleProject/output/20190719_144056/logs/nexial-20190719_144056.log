@@ -1,0 +1,103 @@
+2019-07-19 14:40:56,589|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-19 14:40:56,595|I|Thread-1|(DELAYED) validating test script as C:\projects\exampleProject\artifact\script\exampleProject.xlsx
+2019-07-19 14:40:56,595|I|Thread-1|(DELAYED) validating data file as C:\projects\exampleProject\artifact\data\exampleProject.data.xlsx
+2019-07-19 14:40:56,595|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-19 14:40:56,595|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-19 14:40:56,595|I|Thread-1|(DELAYED) [20190719_144056] [C:\projects\exampleProject\artifact\script\exampleProject.xlsx] resolve RUN ID as 20190719_144056
+2019-07-19 14:40:56,596|I|Thread-1|(DELAYED) [20190719_144056] [C:\projects\exampleProject\artifact\script\exampleProject.xlsx] new thread started
+2019-07-19 14:40:56,596|I|Thread-1|No predefined nexial-setup found
+2019-07-19 14:40:56,676|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 14:40:56,677|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 14:40:56,677|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 14:40:56,705|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-19 14:40:57,472|I|Thread-1|[20190719_144056] executing C:\projects\exampleProject\artifact\script\exampleProject.xlsx with 1 iteration(s)
+2019-07-19 14:40:57,475|I|Thread-1|[20190719_144056] create directory C:\projects\exampleProject\output\20190719_144056\captures
+2019-07-19 14:40:57,476|I|Thread-1|[20190719_144056] create directory C:\projects\exampleProject\output\20190719_144056\logs
+2019-07-19 14:40:58,834|I|Thread-1|[20190719_144056] merging test data to tmp file C:\projects\exampleProject\output\20190719_144056\exampleProject-plan.001,exampleProject.20190719_144057.001.xlsx
+2019-07-19 14:40:58,836|I|Thread-1|refetching data from C:\projects\exampleProject\artifact\data\exampleProject.data.xlsx
+2019-07-19 14:40:59,130|I|Thread-1|[20190719_144056] test script and test data merged to C:\projects\exampleProject\output\20190719_144056\exampleProject-plan.001,exampleProject.20190719_144057.001.xlsx
+2019-07-19 14:40:59,559|I|Thread-1|STARTS
+2019-07-19 14:40:59,583|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-19 14:40:59,591|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1 - executing test scenario
+2019-07-19 14:40:59,594|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1 - executing activity
+2019-07-19 14:41:00,197|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  5|base.save(var,value) - executing save(var,value)(marks, 100,90,65,55,82,91,12,45,78,43,78)
+2019-07-19 14:41:00,222|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  5|base.save(var,value) - PASS stored '100,90,65,55,82,91,12,45,78,43,78' as ${marks}
+2019-07-19 14:41:00,826|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  6|number.max(var,array) - executing max(var,array)(maxValue, ${marks})
+2019-07-19 14:41:01,010|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  6|number.max(var,array) - PASS max saved to variable 'maxValue' as 100.0
+2019-07-19 14:41:01,612|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  7|base.verbose(text) - executing verbose(text)( ${maxValue})
+2019-07-19 14:41:01,619|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  7|base.verbose(text) -  100.0
+2019-07-19 14:41:01,634|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  7|base.verbose(text) - PASS 
+2019-07-19 14:41:02,244|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  8|number.min(var,array) - executing min(var,array)(minValue, ${marks})
+2019-07-19 14:41:02,257|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  8|number.min(var,array) - PASS min saved to variable 'minValue' as 12.0
+2019-07-19 14:41:02,863|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  9|base.verbose(text) - executing verbose(text)( ${minValue} )
+2019-07-19 14:41:02,868|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  9|base.verbose(text) -  12.0 
+2019-07-19 14:41:02,887|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-19 14:41:03,490|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 10|number.assertGreater(num1 - executing assertGreater(num1,num2)(50, ${minValue})
+2019-07-19 14:41:03,490|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 10|number.assertGreater(num1 - PASS 50 is greater than 12.0
+2019-07-19 14:41:04,115|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 11|number.assertLesser(num1, - executing assertLesser(num1,num2)(12, ${minValue})
+2019-07-19 14:41:04,115|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 11|number.assertLesser(num1, - FAIL 12 is NOT less than 12.0
+2019-07-19 14:41:04,730|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 12|number.average(var,array) - executing average(var,array)(averageMarks, ${marks})
+2019-07-19 14:41:04,749|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 12|number.average(var,array) - PASS average saved to variable 'averageMarks' as 67.18181818181819
+2019-07-19 14:41:05,356|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 13|base.verbose(text) - executing verbose(text)(${averageMarks})
+2019-07-19 14:41:05,361|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 13|base.verbose(text) - 67.18181818181819
+2019-07-19 14:41:05,373|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 13|base.verbose(text) - PASS 
+2019-07-19 14:41:05,978|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 14|number.ceiling(var) - executing ceiling(var)(averageMarks)
+2019-07-19 14:41:05,986|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 14|number.ceiling(var) - PASS Variable 'averageMarks' has been round up to 68
+2019-07-19 14:41:06,593|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 15|base.verbose(text) - executing verbose(text)(Average rounded marks are :: ${averageMarks})
+2019-07-19 14:41:06,597|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 15|base.verbose(text) - Average rounded marks are :: 68
+2019-07-19 14:41:06,605|I|Thread-1|exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1|Activity 1|# 15|base.verbose(text) - PASS 
+2019-07-19 14:41:06,814|I|Thread-1|[exampleProject-plan.001,exampleProject.20190719_144057.001|Scenario1] saving test scenario
+2019-07-19 14:41:06,918|I|Thread-1|[20190719_144056] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\exampleProject\output\20190719_144056\exampleProject-plan.001,exampleProject.20190719_144057.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 7329 ms
+» Test Steps:     11
+» Error(s):       1
+
+
+
+2019-07-19 14:41:14,421|I|Thread-1|[20190719_144056] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\exampleProject\artifact\script\exampleProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 18009 ms
+» Iterations:     [1] total 1
+» Test Steps:     11
+» Passed:         10
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\exampleProject\output\20190719_144056\exampleProject-plan.001,exampleProject.20190719_144057.001.xlsx
+
+
+
+2019-07-19 14:41:15,366|I|main|[20190719_144056] [C:\projects\exampleProject\artifact\script\exampleProject.xlsx] now completed
+2019-07-19 14:41:15,368|I|main|[20190719_144056] all execution thread(s) have terminated
+2019-07-19 14:41:15,372|I|main|[20190719_144056] test run completed in about 19 seconds
+2019-07-19 14:41:15,480|I|main|No predefined nexial-setup found
+2019-07-19 14:41:15,528|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 14:41:15,529|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 14:41:15,529|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 14:41:15,530|I|main|generating HTML output for this execution to C:\projects\exampleProject\output\20190719_144056\execution-output.html
+2019-07-19 14:41:16,247|I|main|generating JUnit XML output for this execution to C:\projects\exampleProject\output\20190719_144056\junit.xml
+2019-07-19 14:41:16,305|I|main|generated JUnit report for this execution: C:\projects\exampleProject\output\20190719_144056\junit.xml
+2019-07-19 14:41:16,309|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-19 14:41:16,311|I|main|skipped email notification as configured
+2019-07-19 14:41:16,315|I|main|exiting Nexial...
+2019-07-19 14:41:16,318|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 19 sec.
+| » Test Steps....: 11
+| » Passed........: 10
+| » Failed........: 1
+| » Success Rate..: 90.91%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-19 14:41:16,320|E|main|failure found; success rate is 90.91%
+2019-07-19 14:41:16,322|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\exampleProject\output\20190719_144056
+NEXIAL_EXECUTION_HTML: C:\projects\exampleProject\output\20190719_144056\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\exampleProject\output\20190719_144056\junit.xml
+NEXIAL_SUCCESS_RATE:   90.91%
+NEXIAL_EXIT_STATUS:    -13

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190719_142301" timestamp="2019-07-19T14:23:01" time="14.020" tests="11" errors="3">
+  <testsuite id="1" name="exampleProject" package="exampleProject" hostname="ATMECSINDT-043" timestamp="2019-07-19T14:23:02" time="9.105" tests="11" errors="3">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="exampleProject.xlsx" />
+      <property name="Logs" value="C:\projects\exampleProject\output\20190719_142301\logs\nexial-20190719_142301.log" />
+      <property name="Data File" value="exampleProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\exampleProject\artifact\script\exampleProject.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-19T14:23:04" time="7.437">
+      <failure type="failure found in test activity" message="3 of 11 FAILED. Check C:\projects\exampleProject\output\20190719_142301\exampleProject.20190719_142302.001.xlsx for execution result, C:\projects\exampleProject\output\20190719_142301\logs\nexial-20190719_142301.log for execution logs" />
+      <system-out>Total : 11
+Passed: 8
+Failed: 3
+Output: C:\projects\exampleProject\output\20190719_142301\exampleProject.20190719_142302.001.xlsx
+Logs  : C:\projects\exampleProject\output\20190719_142301\logs\nexial-20190719_142301.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

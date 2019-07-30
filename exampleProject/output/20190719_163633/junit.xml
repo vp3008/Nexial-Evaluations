@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190719_163633" timestamp="2019-07-19T16:36:33" time="12.013" tests="2" errors="0">
+  <testsuite id="1001" name="1 exampleProject" package="1 exampleProject" hostname="ATMECSINDT-043" timestamp="2019-07-19T16:36:35" time="2.858" tests="2" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="exampleProject.xlsx" />
+      <property name="Logs" value="C:\projects\exampleProject\output\20190719_163633\logs\nexial-20190719_163633.log" />
+      <property name="Data File" value="exampleProject.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-plan C:\projects\exampleProject\artifact\plan\exampleProject-plan.xlsx" />
+    </properties>
+  </testsuite>
+</testsuites>

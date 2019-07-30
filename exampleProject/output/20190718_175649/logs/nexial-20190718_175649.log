@@ -1,0 +1,80 @@
+2019-07-18 17:56:50,036|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-18 17:56:50,039|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\SsdqK\exampleProject.data.xlsx
+2019-07-18 17:56:50,039|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-18 17:56:50,039|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-18 17:56:50,039|I|Thread-1|(DELAYED) [20190718_175649] [C:\projects\exampleProject\artifact\script\exampleProject.xlsx] resolve RUN ID as 20190718_175649
+2019-07-18 17:56:50,039|I|Thread-1|(DELAYED) [20190718_175649] [C:\projects\exampleProject\artifact\script\exampleProject.xlsx] new thread started
+2019-07-18 17:56:50,039|I|Thread-1|No predefined nexial-setup found
+2019-07-18 17:56:50,136|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-18 17:56:50,136|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-18 17:56:50,137|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-18 17:56:50,165|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-18 17:56:50,930|I|Thread-1|[20190718_175649] executing C:\projects\exampleProject\artifact\script\exampleProject.xlsx with 1 iteration(s)
+2019-07-18 17:56:50,935|I|Thread-1|[20190718_175649] create directory C:\projects\exampleProject\output\20190718_175649\captures
+2019-07-18 17:56:50,937|I|Thread-1|[20190718_175649] create directory C:\projects\exampleProject\output\20190718_175649\logs
+2019-07-18 17:56:51,565|I|Thread-1|[20190718_175649] merging test data to tmp file C:\projects\exampleProject\output\20190718_175649\exampleProject.20190718_175650.001.xlsx
+2019-07-18 17:56:51,566|I|Thread-1|refetching data from C:\projects\exampleProject\artifact\data\exampleProject.data.xlsx
+2019-07-18 17:56:51,895|I|Thread-1|[20190718_175649] test script and test data merged to C:\projects\exampleProject\output\20190718_175649\exampleProject.20190718_175650.001.xlsx
+2019-07-18 17:56:52,729|I|Thread-1|STARTS
+2019-07-18 17:56:52,750|I|Thread-1|exampleProject.20190718_175650.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-18 17:56:52,761|I|Thread-1|exampleProject.20190718_175650.001|Scenario - executing test scenario
+2019-07-18 17:56:52,763|I|Thread-1|exampleProject.20190718_175650.001|Scenario|Activity 1 - executing activity
+2019-07-18 17:56:53,366|I|Thread-1|exampleProject.20190718_175650.001|Scenario|Activity 1|#  5|base.save(var,value) - executing save(var,value)(country, India, USA, Canada, England)
+2019-07-18 17:56:53,374|I|Thread-1|exampleProject.20190718_175650.001|Scenario|Activity 1|#  5|base.save(var,value) - PASS stored 'India, USA, Canada, England' as ${country}
+2019-07-18 17:56:53,976|I|Thread-1|exampleProject.20190718_175650.001|Scenario|Activity 1|#  6|base.assertContains(text, - executing assertContains(text,substring)(${country}, India)
+2019-07-18 17:56:54,142|I|Thread-1|exampleProject.20190718_175650.001|Scenario|Activity 1|#  6|base.assertContains(text, - PASS validated text 'India, USA, Canada, England' contains 'India'
+2019-07-18 17:56:54,246|I|Thread-1|[exampleProject.20190718_175650.001|Scenario] saving test scenario
+2019-07-18 17:56:54,357|I|Thread-1|[20190718_175649] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\exampleProject\output\20190718_175649\exampleProject.20190718_175650.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 1599 ms
+» Test Steps:     2
+» Error(s):       0
+
+
+
+2019-07-18 17:56:59,266|I|Thread-1|[20190718_175649] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\exampleProject\artifact\script\exampleProject.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 9427 ms
+» Iterations:     [1] total 1
+» Test Steps:     2
+» Passed:         2
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\exampleProject\output\20190718_175649\exampleProject.20190718_175650.001.xlsx
+
+
+
+2019-07-18 17:56:59,792|I|main|[20190718_175649] [C:\projects\exampleProject\artifact\script\exampleProject.xlsx] now completed
+2019-07-18 17:56:59,795|I|main|[20190718_175649] all execution thread(s) have terminated
+2019-07-18 17:56:59,797|I|main|[20190718_175649] test run completed in about 10 seconds
+2019-07-18 17:56:59,907|I|main|No predefined nexial-setup found
+2019-07-18 17:56:59,945|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-18 17:56:59,946|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-18 17:56:59,947|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-18 17:56:59,947|I|main|generating HTML output for this execution to C:\projects\exampleProject\output\20190718_175649\execution-output.html
+2019-07-18 17:57:00,623|I|main|generating JUnit XML output for this execution to C:\projects\exampleProject\output\20190718_175649\junit.xml
+2019-07-18 17:57:00,665|I|main|generated JUnit report for this execution: C:\projects\exampleProject\output\20190718_175649\junit.xml
+2019-07-18 17:57:00,669|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-18 17:57:00,670|I|main|skipped email notification as configured
+2019-07-18 17:57:00,672|I|main|exiting Nexial...
+2019-07-18 17:57:00,679|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 10 sec.
+| » Test Steps....: 2
+| » Passed........: 2
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-18 17:57:00,681|I|main|ALL PASSED!
+2019-07-18 17:57:00,682|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\exampleProject\output\20190718_175649
+NEXIAL_EXECUTION_HTML: C:\projects\exampleProject\output\20190718_175649\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\exampleProject\output\20190718_175649\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0
