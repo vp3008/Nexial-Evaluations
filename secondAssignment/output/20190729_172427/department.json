@@ -1,0 +1,8 @@
+{
+  "sql": "select * from department;",
+  "startTime": 1564401324828,
+  "elapsedTime": 0,
+  "rowCount": 0,
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190729_103138" timestamp="2019-07-29T10:31:38" time="22.017" tests="6" errors="0">
+  <testsuite id="1" name="secondAssignment" package="secondAssignment" hostname="ATMECSINDT-043" timestamp="2019-07-29T10:31:40" time="19.720" tests="6" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="secondAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\secondAssignment\output\20190729_103138\logs\nexial-20190729_103138.log" />
+      <property name="Data File" value="secondAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-29T10:31:41" time="17.998">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\secondAssignment\output\20190729_103138\secondAssignment.20190729_103140.001.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_103138\logs\nexial-20190729_103138.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

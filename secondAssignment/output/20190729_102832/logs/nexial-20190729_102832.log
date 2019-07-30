@@ -1,0 +1,96 @@
+2019-07-29 10:28:32,560|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-29 10:28:32,576|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\Gbeuu\secondAssignment.data.xlsx
+2019-07-29 10:28:32,576|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 10:28:32,576|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 10:28:32,576|I|Thread-1|(DELAYED) [20190729_102832] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] resolve RUN ID as 20190729_102832
+2019-07-29 10:28:32,576|I|Thread-1|(DELAYED) [20190729_102832] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] new thread started
+2019-07-29 10:28:32,576|I|Thread-1|No predefined nexial-setup found
+2019-07-29 10:28:32,638|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 10:28:32,638|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 10:28:32,638|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 10:28:32,670|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 10:28:33,498|I|Thread-1|[20190729_102832] executing C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx with 1 iteration(s)
+2019-07-29 10:28:33,498|I|Thread-1|[20190729_102832] create directory C:\projects\secondAssignment\output\20190729_102832\captures
+2019-07-29 10:28:33,498|I|Thread-1|[20190729_102832] create directory C:\projects\secondAssignment\output\20190729_102832\logs
+2019-07-29 10:28:34,123|I|Thread-1|[20190729_102832] merging test data to tmp file C:\projects\secondAssignment\output\20190729_102832\secondAssignment.20190729_102833.001.xlsx
+2019-07-29 10:28:34,123|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 10:28:34,461|I|Thread-1|[20190729_102832] test script and test data merged to C:\projects\secondAssignment\output\20190729_102832\secondAssignment.20190729_102833.001.xlsx
+2019-07-29 10:28:35,194|I|Thread-1|STARTS
+2019-07-29 10:28:35,215|I|Thread-1|secondAssignment.20190729_102833.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-29 10:28:35,224|I|Thread-1|secondAssignment.20190729_102833.001|Scenario - executing test scenario
+2019-07-29 10:28:35,226|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1 - executing activity
+2019-07-29 10:28:35,832|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://opensource-demo.orangehrmlive.com/)
+2019-07-29 10:28:35,832|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 10:28:35,832|I|Thread-1|init chrome
+2019-07-29 10:28:42,045|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 10:28:42,076|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 10:28:42,092|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 10:28:45,826|I|Thread-1|current browser window handle:CDwindow-1135D1169E8A8A80434D94A9C335AA31
+2019-07-29 10:28:45,860|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  5|web.open(url) - PASS opened URL https://opensource-demo.orangehrmlive.com/
+2019-07-29 10:28:46,475|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="txtUsername"], Admin)
+2019-07-29 10:28:46,722|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="txtUsername"]'
+2019-07-29 10:28:47,326|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//*[@id="txtPassword"], admin123)
+2019-07-29 10:28:47,497|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//*[@id="txtPassword"]'
+2019-07-29 10:28:48,102|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  8|web.click(locator) - executing click(locator)(//*[@id="btnLogin"])
+2019-07-29 10:28:48,149|I|Thread-1|clicking '//*[@id="btnLogin"]'...
+2019-07-29 10:28:48,165|I|Thread-1|click target via JS, @id=btnLogin
+2019-07-29 10:28:49,718|I|Thread-1|clicked -> true
+2019-07-29 10:28:49,722|I|Thread-1|secondAssignment.20190729_102833.001|Scenario|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-29 10:28:49,848|I|Thread-1|[secondAssignment.20190729_102833.001|Scenario] saving test scenario
+2019-07-29 10:28:49,957|I|Thread-1|[20190729_102832] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_102832\secondAssignment.20190729_102833.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 14736 ms
+» Test Steps:     4
+» Error(s):       0
+
+
+
+2019-07-29 10:28:50,866|I|Thread-1|[20190729_102832] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 18495 ms
+» Iterations:     [1] total 1
+» Test Steps:     4
+» Passed:         4
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\secondAssignment\output\20190729_102832\secondAssignment.20190729_102833.001.xlsx
+
+
+
+2019-07-29 10:28:51,399|I|main|[20190729_102832] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] now completed
+2019-07-29 10:28:51,400|I|main|[20190729_102832] all execution thread(s) have terminated
+2019-07-29 10:28:51,401|I|main|[20190729_102832] test run completed in about 19 seconds
+2019-07-29 10:28:51,496|I|main|No predefined nexial-setup found
+2019-07-29 10:28:51,545|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 10:28:51,547|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 10:28:51,549|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 10:28:51,553|I|main|generating HTML output for this execution to C:\projects\secondAssignment\output\20190729_102832\execution-output.html
+2019-07-29 10:28:52,204|I|main|generating JUnit XML output for this execution to C:\projects\secondAssignment\output\20190729_102832\junit.xml
+2019-07-29 10:28:52,270|I|main|generated JUnit report for this execution: C:\projects\secondAssignment\output\20190729_102832\junit.xml
+2019-07-29 10:28:52,271|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 10:28:52,272|I|main|skipped email notification as configured
+2019-07-29 10:28:52,274|I|main|exiting Nexial...
+2019-07-29 10:28:52,275|I|main|shutdown starts...
+2019-07-29 10:28:52,277|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 10:28:57,995|I|main|shutdown ends...
+2019-07-29 10:28:58,002|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 19 sec.
+| » Test Steps....: 4
+| » Passed........: 4
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-29 10:28:58,009|I|main|ALL PASSED!
+2019-07-29 10:28:58,018|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\secondAssignment\output\20190729_102832
+NEXIAL_EXECUTION_HTML: C:\projects\secondAssignment\output\20190729_102832\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\secondAssignment\output\20190729_102832\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

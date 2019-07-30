@@ -1,0 +1,12 @@
+{
+  "sql": "select * from info;",
+  "startTime": 1564398824859,
+  "elapsedTime": 25,
+  "rowCount": 1,
+  "columns": [
+    "keyword",
+    "url"
+  ],
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

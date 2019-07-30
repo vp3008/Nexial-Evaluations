@@ -1,0 +1,113 @@
+2019-07-29 16:21:13,523|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-29 16:21:13,527|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\IYWZp\secondAssignment.data.xlsx
+2019-07-29 16:21:13,527|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 16:21:13,527|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 16:21:13,527|I|Thread-1|(DELAYED) [20190729_162113] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] resolve RUN ID as 20190729_162113
+2019-07-29 16:21:13,527|I|Thread-1|(DELAYED) [20190729_162113] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] new thread started
+2019-07-29 16:21:13,528|I|Thread-1|No predefined nexial-setup found
+2019-07-29 16:21:13,606|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 16:21:13,607|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 16:21:13,608|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 16:21:13,633|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 16:21:14,369|I|Thread-1|[20190729_162113] executing C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx with 1 iteration(s)
+2019-07-29 16:21:14,375|I|Thread-1|[20190729_162113] create directory C:\projects\secondAssignment\output\20190729_162113\captures
+2019-07-29 16:21:14,376|I|Thread-1|[20190729_162113] create directory C:\projects\secondAssignment\output\20190729_162113\logs
+2019-07-29 16:21:15,624|I|Thread-1|[20190729_162113] merging test data to tmp file C:\projects\secondAssignment\output\20190729_162113\secondAssignment.20190729_162114.001.xlsx
+2019-07-29 16:21:15,625|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 16:21:15,951|I|Thread-1|[20190729_162113] test script and test data merged to C:\projects\secondAssignment\output\20190729_162113\secondAssignment.20190729_162114.001.xlsx
+2019-07-29 16:21:16,596|I|Thread-1|STARTS
+2019-07-29 16:21:16,622|I|Thread-1|secondAssignment.20190729_162114.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-29 16:21:16,629|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2 - executing test scenario
+2019-07-29 16:21:16,631|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1 - executing activity
+2019-07-29 16:21:17,235|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 16:21:17,246|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 16:21:17,253|I|Thread-1|init chrome
+2019-07-29 16:21:23,437|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 16:21:23,448|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 16:21:23,454|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 16:21:25,152|I|Thread-1|current browser window handle:CDwindow-9DE6EB60A947FFDAF9A4D7E71E4534D6
+2019-07-29 16:21:25,173|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 16:21:25,774|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ATMECS)
+2019-07-29 16:21:26,016|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 16:21:26,622|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 16:21:26,667|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 16:21:26,681|I|Thread-1|click target via JS, @id=
+2019-07-29 16:21:28,209|I|Thread-1|clicked -> true
+2019-07-29 16:21:28,211|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 16:21:28,812|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 16:21:28,984|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 16:21:29,589|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 16:21:29,600|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  9|base.verbose(text) - 11
+2019-07-29 16:21:29,738|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 16:21:30,339|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("ATMECS", ${linkArray});)
+2019-07-29 16:21:30,356|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("ATMECS", www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews);' as ${query}
+2019-07-29 16:21:30,972|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${query})
+2019-07-29 16:21:31,095|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - new connection established for 'mydb'
+2019-07-29 16:21:31,346|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 247 ms with ERROR Error occurred when executing 'Insert into info values("ATMECS", www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews);': [SQLITE_ERROR] SQL error or missing database (near ",": syntax error)
+2019-07-29 16:21:31,381|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into info values("ATMECS", www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews);'; stored result as ${queryResult}
+2019-07-29 16:21:31,987|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 12|base.save(var,value) - executing save(var,value)(selectQuery, select * from info;)
+2019-07-29 16:21:31,998|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 12|base.save(var,value) - PASS stored 'select * from info;' as ${selectQuery}
+2019-07-29 16:21:32,608|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${selectQuery})
+2019-07-29 16:21:32,613|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:21:32,620|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executed query in 3 ms with 0 row(s)
+2019-07-29 16:21:32,624|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - PASS executed SQL 'select * from info;'; stored result as ${queryResult}
+2019-07-29 16:21:33,227|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 14|rdbms.resultToCSV(var,csv - executing resultToCSV(var,csvFile,delim,showHeader)(queryResult, $(syspath|out|fullpath)/result.csv, |, true)
+2019-07-29 16:21:33,305|I|Thread-1|secondAssignment.20190729_162114.001|Scenario2|Activity 1|# 14|rdbms.resultToCSV(var,csv - FAIL Unknown type found for variable 'queryResult': org.nexial.core.plugins.db.JdbcResult
+2019-07-29 16:21:33,822|I|Thread-1|[secondAssignment.20190729_162114.001|Scenario2] saving test scenario
+2019-07-29 16:21:33,947|I|Thread-1|[20190729_162113] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_162113\secondAssignment.20190729_162114.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 17321 ms
+» Test Steps:     10
+» Error(s):       1
+
+
+
+2019-07-29 16:21:34,797|I|Thread-1|[20190729_162113] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 21470 ms
+» Iterations:     [1] total 1
+» Test Steps:     10
+» Passed:         9
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\secondAssignment\output\20190729_162113\secondAssignment.20190729_162114.001.xlsx
+
+
+
+2019-07-29 16:21:35,284|I|main|[20190729_162113] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] now completed
+2019-07-29 16:21:35,285|I|main|[20190729_162113] all execution thread(s) have terminated
+2019-07-29 16:21:35,285|I|main|[20190729_162113] test run completed in about 22 seconds
+2019-07-29 16:21:35,371|I|main|No predefined nexial-setup found
+2019-07-29 16:21:35,413|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 16:21:35,414|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 16:21:35,415|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 16:21:35,416|I|main|generating HTML output for this execution to C:\projects\secondAssignment\output\20190729_162113\execution-output.html
+2019-07-29 16:21:36,135|I|main|generating JUnit XML output for this execution to C:\projects\secondAssignment\output\20190729_162113\junit.xml
+2019-07-29 16:21:36,181|I|main|generated JUnit report for this execution: C:\projects\secondAssignment\output\20190729_162113\junit.xml
+2019-07-29 16:21:36,183|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 16:21:36,183|I|main|skipped email notification as configured
+2019-07-29 16:21:36,186|I|main|exiting Nexial...
+2019-07-29 16:21:36,186|I|main|shutdown starts...
+2019-07-29 16:21:36,188|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 16:21:41,931|I|main|shutdown ends...
+2019-07-29 16:21:41,936|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 22 sec.
+| » Test Steps....: 10
+| » Passed........: 9
+| » Failed........: 1
+| » Success Rate..: 90.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-29 16:21:41,943|E|main|failure found; success rate is 90.00%
+2019-07-29 16:21:41,945|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\secondAssignment\output\20190729_162113
+NEXIAL_EXECUTION_HTML: C:\projects\secondAssignment\output\20190729_162113\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\secondAssignment\output\20190729_162113\junit.xml
+NEXIAL_SUCCESS_RATE:   90.00%
+NEXIAL_EXIT_STATUS:    -13

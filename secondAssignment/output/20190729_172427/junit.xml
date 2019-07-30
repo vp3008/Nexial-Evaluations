@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190729_172427" timestamp="2019-07-29T17:24:27" time="59.282" tests="48" errors="0">
+  <testsuite id="1" name="secondAssignment, Iteration 1 of 4" package="secondAssignment" hostname="ATMECSINDT-043" timestamp="2019-07-29T17:24:28" time="20.733" tests="12" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="1 of 4" />
+      <property name="Script" value="secondAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log" />
+      <property name="Data File" value="secondAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx -scenario Scenario3" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario3" timestamp="2019-07-29T17:24:30" time="18.224">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172428.001.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="2" name="secondAssignment, Iteration 2 of 4" package="secondAssignment" hostname="ATMECSINDT-043" timestamp="2019-07-29T17:24:49" time="12.377" tests="12" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="2 of 4" />
+      <property name="Script" value="secondAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log" />
+      <property name="Data File" value="secondAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx -scenario Scenario3" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario3" timestamp="2019-07-29T17:24:50" time="11.430">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172449.002.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="3" name="secondAssignment, Iteration 3 of 4" package="secondAssignment" hostname="ATMECSINDT-043" timestamp="2019-07-29T17:25:02" time="11.115" tests="12" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="3 of 4" />
+      <property name="Script" value="secondAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log" />
+      <property name="Data File" value="secondAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx -scenario Scenario3" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario3" timestamp="2019-07-29T17:25:03" time="10.277">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172502.003.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="4" name="secondAssignment, Iteration 4 of 4" package="secondAssignment" hostname="ATMECSINDT-043" timestamp="2019-07-29T17:25:13" time="11.271" tests="12" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="4 of 4" />
+      <property name="Script" value="secondAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log" />
+      <property name="Data File" value="secondAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx -scenario Scenario3" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario3" timestamp="2019-07-29T17:25:14" time="10.568">
+      <system-out>Total : 12
+Passed: 12
+Failed: 0
+Output: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172513.004.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_172427\logs\nexial-20190729_172427.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

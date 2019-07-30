@@ -1,0 +1,274 @@
+2019-07-29 16:57:19,621|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-29 16:57:19,626|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\XNnEs\secondAssignment.data.xlsx
+2019-07-29 16:57:19,626|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 16:57:19,626|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 16:57:19,626|I|Thread-1|(DELAYED) [20190729_165719] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] resolve RUN ID as 20190729_165719
+2019-07-29 16:57:19,626|I|Thread-1|(DELAYED) [20190729_165719] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] new thread started
+2019-07-29 16:57:19,626|I|Thread-1|No predefined nexial-setup found
+2019-07-29 16:57:19,702|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 16:57:19,702|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 16:57:19,703|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 16:57:19,732|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 16:57:20,538|I|Thread-1|[20190729_165719] executing C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx with 4 iteration(s)
+2019-07-29 16:57:20,543|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\captures
+2019-07-29 16:57:20,544|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\logs
+2019-07-29 16:57:21,918|I|Thread-1|[20190729_165719] merging test data to tmp file C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165720.001.xlsx
+2019-07-29 16:57:21,919|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 16:57:22,281|I|Thread-1|[20190729_165719] test script and test data merged to C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165720.001.xlsx
+2019-07-29 16:57:22,878|I|Thread-1|STARTS
+2019-07-29 16:57:22,903|I|Thread-1|secondAssignment.20190729_165720.001 - executing iteration #1 of 4; Iteration Id 1
+2019-07-29 16:57:22,910|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2 - executing test scenario
+2019-07-29 16:57:22,911|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1 - executing activity
+2019-07-29 16:57:23,512|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 16:57:23,515|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 16:57:23,516|I|Thread-1|init chrome
+2019-07-29 16:57:30,338|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 16:57:30,346|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 16:57:30,348|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 16:57:32,174|I|Thread-1|current browser window handle:CDwindow-FCD10B12AE25B59F3511502AC8533C14
+2019-07-29 16:57:32,195|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 16:57:32,796|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 16:57:33,237|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 16:57:33,841|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 16:57:33,860|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 16:57:33,879|I|Thread-1|click target via JS, @id=
+2019-07-29 16:57:35,304|I|Thread-1|clicked -> true
+2019-07-29 16:57:35,306|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 16:57:35,908|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 16:57:36,127|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 16:57:36,731|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 16:57:36,736|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  9|base.verbose(text) - 11
+2019-07-29 16:57:36,739|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 16:57:37,340|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 16:57:37,344|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("ATMECS", "www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews");' as ${query}
+2019-07-29 16:57:37,945|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${query})
+2019-07-29 16:57:38,017|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - new connection established for 'mydb'
+2019-07-29 16:57:38,463|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 445 ms with 1 row(s)
+2019-07-29 16:57:38,471|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into info values("ATMECS", "www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews");'; stored result as ${queryResult}
+2019-07-29 16:57:39,076|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 12|base.save(var,value) - executing save(var,value)(selectQuery, select * from info;)
+2019-07-29 16:57:39,078|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 12|base.save(var,value) - PASS stored 'select * from info;' as ${selectQuery}
+2019-07-29 16:57:39,680|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${selectQuery})
+2019-07-29 16:57:39,685|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:57:39,704|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executed query in 17 ms with 6 row(s)
+2019-07-29 16:57:39,713|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - PASS executed SQL 'select * from info;'; stored result as ${queryResult}
+2019-07-29 16:57:40,317|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, ${selectQuery}, $(syspath|out|fullpath)/FinalResult.csv)
+2019-07-29 16:57:40,326|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 16:57:40,364|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executed query in 37 ms with 6 row(s)
+2019-07-29 16:57:40,428|I|Thread-1|secondAssignment.20190729_165720.001|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from info;'; stored result to 'C:\projects\secondAssignment\output\20190729_165719\FinalResult.csv'
+2019-07-29 16:57:40,901|I|Thread-1|[secondAssignment.20190729_165720.001|Scenario2] saving test scenario
+2019-07-29 16:57:41,022|I|Thread-1|[20190729_165719] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165720.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 18115 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2019-07-29 16:57:41,775|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\captures
+2019-07-29 16:57:41,775|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\logs
+2019-07-29 16:57:42,297|I|Thread-1|[20190729_165719] merging test data to tmp file C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165741.002.xlsx
+2019-07-29 16:57:42,297|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 16:57:42,458|I|Thread-1|[20190729_165719] test script and test data merged to C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165741.002.xlsx
+2019-07-29 16:57:42,759|I|Thread-1|STARTS
+2019-07-29 16:57:42,763|I|Thread-1|secondAssignment.20190729_165741.002 - executing iteration #2 of 4; Iteration Id 2
+2019-07-29 16:57:42,764|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2 - executing test scenario
+2019-07-29 16:57:42,764|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1 - executing activity
+2019-07-29 16:57:43,365|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 16:57:44,278|I|Thread-1|current browser window handle:CDwindow-FCD10B12AE25B59F3511502AC8533C14
+2019-07-29 16:57:44,288|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 16:57:44,888|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 16:57:45,074|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 16:57:45,676|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 16:57:45,713|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 16:57:45,729|I|Thread-1|click target via JS, @id=
+2019-07-29 16:57:46,940|I|Thread-1|clicked -> true
+2019-07-29 16:57:46,941|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 16:57:47,541|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 16:57:47,673|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 16:57:48,275|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 16:57:48,280|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  9|base.verbose(text) - 5
+2019-07-29 16:57:48,287|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 16:57:48,892|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 16:57:48,901|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("Sundar Pichai", "https://en.wikipedia.org/wiki/Sundar_Pichai,https://www.britannica.com/biography/Sundar-Pichai,https://www.crunchbase.com/person/sundar-pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.businesstoday.in/current/corporate/sundar-pichai.../289327.html");' as ${query}
+2019-07-29 16:57:49,503|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${query})
+2019-07-29 16:57:49,507|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:57:49,625|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 116 ms with 1 row(s)
+2019-07-29 16:57:49,630|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into info values("Sundar Pichai", "https://en.wikipedia.org/wiki/Sundar_Pichai,https://www.britannica.com/biography/Sundar-Pichai,https://www.crunchbase.com/person/sundar-pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.businesstoday.in/current/corporate/sundar-pichai.../289327.html");'; stored result as ${queryResult}
+2019-07-29 16:57:50,231|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 12|base.save(var,value) - executing save(var,value)(selectQuery, select * from info;)
+2019-07-29 16:57:50,236|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 12|base.save(var,value) - PASS stored 'select * from info;' as ${selectQuery}
+2019-07-29 16:57:50,838|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${selectQuery})
+2019-07-29 16:57:50,842|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:57:50,844|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executed query in 1 ms with 7 row(s)
+2019-07-29 16:57:50,850|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - PASS executed SQL 'select * from info;'; stored result as ${queryResult}
+2019-07-29 16:57:51,453|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, ${selectQuery}, $(syspath|out|fullpath)/FinalResult.csv)
+2019-07-29 16:57:51,457|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 16:57:51,480|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executed query in 21 ms with 7 row(s)
+2019-07-29 16:57:51,498|I|Thread-1|secondAssignment.20190729_165741.002|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from info;'; stored result to 'C:\projects\secondAssignment\output\20190729_165719\FinalResult.csv'
+2019-07-29 16:57:51,663|I|Thread-1|[secondAssignment.20190729_165741.002|Scenario2] saving test scenario
+2019-07-29 16:57:51,725|I|Thread-1|[20190729_165719] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165741.002.xlsx
+| Iteration:      2
+\-------------------------------------------------------------------------------
+» Execution Time: 8960 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2019-07-29 16:57:52,175|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\captures
+2019-07-29 16:57:52,175|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\logs
+2019-07-29 16:57:52,682|I|Thread-1|[20190729_165719] merging test data to tmp file C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165752.003.xlsx
+2019-07-29 16:57:52,682|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 16:57:52,837|I|Thread-1|[20190729_165719] test script and test data merged to C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165752.003.xlsx
+2019-07-29 16:57:53,060|I|Thread-1|STARTS
+2019-07-29 16:57:53,063|I|Thread-1|secondAssignment.20190729_165752.003 - executing iteration #3 of 4; Iteration Id 3
+2019-07-29 16:57:53,064|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2 - executing test scenario
+2019-07-29 16:57:53,064|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1 - executing activity
+2019-07-29 16:57:53,665|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 16:57:54,656|I|Thread-1|current browser window handle:CDwindow-FCD10B12AE25B59F3511502AC8533C14
+2019-07-29 16:57:54,664|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 16:57:55,265|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 16:57:55,436|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 16:57:56,036|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 16:57:56,078|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 16:57:56,095|I|Thread-1|click target via JS, @id=
+2019-07-29 16:57:57,307|I|Thread-1|clicked -> true
+2019-07-29 16:57:57,307|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 16:57:57,909|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 16:57:58,129|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 16:57:58,732|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 16:57:58,736|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  9|base.verbose(text) - 10
+2019-07-29 16:57:58,743|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 16:57:59,347|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 16:57:59,356|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates,https://www.gatesnotes.com/,https://www.forbes.com/profile/bill-gates/,,,,,https://www.biographyonline.net/business/bill-gates.html,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw,https://www.biography.com/business-figure/bill-gates");' as ${query}
+2019-07-29 16:57:59,963|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${query})
+2019-07-29 16:57:59,968|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:58:00,089|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 120 ms with 1 row(s)
+2019-07-29 16:58:00,133|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into info values("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates,https://www.gatesnotes.com/,https://www.forbes.com/profile/bill-gates/,,,,,https://www.biographyonline.net/business/bill-gates.html,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw,https://www.biography.com/business-figure/bill-gates");'; stored result as ${queryResult}
+2019-07-29 16:58:00,736|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 12|base.save(var,value) - executing save(var,value)(selectQuery, select * from info;)
+2019-07-29 16:58:00,740|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 12|base.save(var,value) - PASS stored 'select * from info;' as ${selectQuery}
+2019-07-29 16:58:01,342|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${selectQuery})
+2019-07-29 16:58:01,345|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:58:01,349|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executed query in 2 ms with 8 row(s)
+2019-07-29 16:58:01,354|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - PASS executed SQL 'select * from info;'; stored result as ${queryResult}
+2019-07-29 16:58:01,957|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, ${selectQuery}, $(syspath|out|fullpath)/FinalResult.csv)
+2019-07-29 16:58:01,962|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 16:58:02,027|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executed query in 64 ms with 8 row(s)
+2019-07-29 16:58:02,050|I|Thread-1|secondAssignment.20190729_165752.003|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from info;'; stored result to 'C:\projects\secondAssignment\output\20190729_165719\FinalResult.csv'
+2019-07-29 16:58:02,187|I|Thread-1|[secondAssignment.20190729_165752.003|Scenario2] saving test scenario
+2019-07-29 16:58:02,231|I|Thread-1|[20190729_165719] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165752.003.xlsx
+| Iteration:      3
+\-------------------------------------------------------------------------------
+» Execution Time: 9166 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2019-07-29 16:58:02,605|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\captures
+2019-07-29 16:58:02,605|I|Thread-1|[20190729_165719] create directory C:\projects\secondAssignment\output\20190729_165719\logs
+2019-07-29 16:58:03,008|I|Thread-1|[20190729_165719] merging test data to tmp file C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165802.004.xlsx
+2019-07-29 16:58:03,008|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 16:58:03,101|I|Thread-1|[20190729_165719] test script and test data merged to C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165802.004.xlsx
+2019-07-29 16:58:03,350|I|Thread-1|STARTS
+2019-07-29 16:58:03,352|I|Thread-1|secondAssignment.20190729_165802.004 - executing iteration #4 of 4; Iteration Id 4
+2019-07-29 16:58:03,352|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2 - executing test scenario
+2019-07-29 16:58:03,352|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1 - executing activity
+2019-07-29 16:58:03,952|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 16:58:04,932|I|Thread-1|current browser window handle:CDwindow-FCD10B12AE25B59F3511502AC8533C14
+2019-07-29 16:58:04,939|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 16:58:05,539|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 16:58:05,752|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 16:58:06,354|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 16:58:06,395|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 16:58:06,430|I|Thread-1|click target via JS, @id=
+2019-07-29 16:58:07,690|I|Thread-1|clicked -> true
+2019-07-29 16:58:07,691|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 16:58:08,293|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 16:58:08,438|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 16:58:09,039|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 16:58:09,042|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  9|base.verbose(text) - 7
+2019-07-29 16:58:09,046|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 16:58:09,649|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 16:58:09,658|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("Sachin Tendulkar", "https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html,,,,");' as ${query}
+2019-07-29 16:58:10,259|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${query})
+2019-07-29 16:58:10,263|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:58:10,398|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 132 ms with 1 row(s)
+2019-07-29 16:58:10,400|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'Insert into info values("Sachin Tendulkar", "https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html,,,,");'; stored result as ${queryResult}
+2019-07-29 16:58:11,006|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 12|base.save(var,value) - executing save(var,value)(selectQuery, select * from info;)
+2019-07-29 16:58:11,011|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 12|base.save(var,value) - PASS stored 'select * from info;' as ${selectQuery}
+2019-07-29 16:58:11,612|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, ${selectQuery})
+2019-07-29 16:58:11,613|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 16:58:11,613|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - executed query in 0 ms with 9 row(s)
+2019-07-29 16:58:11,615|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 13|rdbms.runSQL(var,db,sql) - PASS executed SQL 'select * from info;'; stored result as ${queryResult}
+2019-07-29 16:58:12,215|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, ${selectQuery}, $(syspath|out|fullpath)/FinalResult.csv)
+2019-07-29 16:58:12,219|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 16:58:12,246|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - executed query in 26 ms with 9 row(s)
+2019-07-29 16:58:12,276|I|Thread-1|secondAssignment.20190729_165802.004|Scenario2|Activity 1|# 14|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from info;'; stored result to 'C:\projects\secondAssignment\output\20190729_165719\FinalResult.csv'
+2019-07-29 16:58:12,398|I|Thread-1|[secondAssignment.20190729_165802.004|Scenario2] saving test scenario
+2019-07-29 16:58:12,442|I|Thread-1|[20190729_165719] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165802.004.xlsx
+| Iteration:      4
+\-------------------------------------------------------------------------------
+» Execution Time: 9089 ms
+» Test Steps:     10
+» Error(s):       0
+
+
+
+2019-07-29 16:58:12,874|I|Thread-1|[20190729_165719] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 53457 ms
+» Iterations:     [1,2,3,4] total 4
+» Test Steps:     40
+» Passed:         40
+» Error(s):       0
+» Iteration 1 of 4: C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165720.001.xlsx
+» Iteration 2 of 4: C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165741.002.xlsx
+» Iteration 3 of 4: C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165752.003.xlsx
+» Iteration 4 of 4: C:\projects\secondAssignment\output\20190729_165719\secondAssignment.20190729_165802.004.xlsx
+
+
+
+2019-07-29 16:58:13,390|I|main|[20190729_165719] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] now completed
+2019-07-29 16:58:13,392|I|main|[20190729_165719] all execution thread(s) have terminated
+2019-07-29 16:58:13,393|I|main|[20190729_165719] test run completed in about 54 seconds
+2019-07-29 16:58:13,481|I|main|No predefined nexial-setup found
+2019-07-29 16:58:13,515|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 16:58:13,515|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 16:58:13,515|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 16:58:13,515|I|main|generating HTML output for this execution to C:\projects\secondAssignment\output\20190729_165719\execution-output.html
+2019-07-29 16:58:14,194|I|main|generating JUnit XML output for this execution to C:\projects\secondAssignment\output\20190729_165719\junit.xml
+2019-07-29 16:58:14,243|I|main|generated JUnit report for this execution: C:\projects\secondAssignment\output\20190729_165719\junit.xml
+2019-07-29 16:58:14,243|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 16:58:14,243|I|main|skipped email notification as configured
+2019-07-29 16:58:14,244|I|main|exiting Nexial...
+2019-07-29 16:58:14,244|I|main|shutdown starts...
+2019-07-29 16:58:14,246|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 16:58:23,916|I|main|shutdown ends...
+2019-07-29 16:58:23,917|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 54 sec.
+| » Test Steps....: 40
+| » Passed........: 40
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-29 16:58:23,918|I|main|ALL PASSED!
+2019-07-29 16:58:23,919|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\secondAssignment\output\20190729_165719
+NEXIAL_EXECUTION_HTML: C:\projects\secondAssignment\output\20190729_165719\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\secondAssignment\output\20190729_165719\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

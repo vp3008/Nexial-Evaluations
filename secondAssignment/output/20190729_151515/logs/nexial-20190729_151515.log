@@ -1,0 +1,99 @@
+2019-07-29 15:15:16,034|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-29 15:15:16,037|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\wrkzF\secondAssignment.data.xlsx
+2019-07-29 15:15:16,037|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 15:15:16,037|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 15:15:16,037|I|Thread-1|(DELAYED) [20190729_151515] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] resolve RUN ID as 20190729_151515
+2019-07-29 15:15:16,037|I|Thread-1|(DELAYED) [20190729_151515] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] new thread started
+2019-07-29 15:15:16,038|I|Thread-1|No predefined nexial-setup found
+2019-07-29 15:15:16,121|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 15:15:16,122|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 15:15:16,122|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 15:15:16,147|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 15:15:16,899|I|Thread-1|[20190729_151515] executing C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx with 1 iteration(s)
+2019-07-29 15:15:16,899|I|Thread-1|[20190729_151515] create directory C:\projects\secondAssignment\output\20190729_151515\captures
+2019-07-29 15:15:16,899|I|Thread-1|[20190729_151515] create directory C:\projects\secondAssignment\output\20190729_151515\logs
+2019-07-29 15:15:17,586|I|Thread-1|[20190729_151515] merging test data to tmp file C:\projects\secondAssignment\output\20190729_151515\secondAssignment.20190729_151516.001.xlsx
+2019-07-29 15:15:17,586|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 15:15:17,883|I|Thread-1|[20190729_151515] test script and test data merged to C:\projects\secondAssignment\output\20190729_151515\secondAssignment.20190729_151516.001.xlsx
+2019-07-29 15:15:18,712|I|Thread-1|STARTS
+2019-07-29 15:15:18,728|I|Thread-1|secondAssignment.20190729_151516.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-29 15:15:18,743|I|Thread-1|secondAssignment.20190729_151516.001|Scenario - executing test scenario
+2019-07-29 15:15:18,743|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1 - executing activity
+2019-07-29 15:15:19,358|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 15:15:19,358|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 15:15:19,358|I|Thread-1|init chrome
+2019-07-29 15:15:25,329|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 15:15:25,360|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 15:15:25,376|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 15:15:27,180|I|Thread-1|current browser window handle:CDwindow-617248C2941D2A1D1DFBFEB25CF1EF77
+2019-07-29 15:15:27,211|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 15:15:27,826|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ATMECS)
+2019-07-29 15:15:28,044|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 15:15:28,650|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 15:15:28,713|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 15:15:28,744|I|Thread-1|click target via JS, @id=
+2019-07-29 15:15:30,990|I|Thread-1|clicked -> true
+2019-07-29 15:15:30,994|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 15:15:31,600|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  8|web.saveTextArray(var, lo - executing saveTextArray(var, locator)(atmecsLinks, //*[@class="iUh30"])
+2019-07-29 15:15:31,781|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  8|web.saveTextArray(var, lo - PASS stored content of '//*[@class="iUh30"]' as ${atmecsLinks}
+2019-07-29 15:15:32,384|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${atmecsLinks}))
+2019-07-29 15:15:32,405|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  9|base.verbose(text) - 11
+2019-07-29 15:15:32,612|I|Thread-1|secondAssignment.20190729_151516.001|Scenario|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 15:15:32,816|I|Thread-1|[secondAssignment.20190729_151516.001|Scenario] saving test scenario
+2019-07-29 15:15:32,946|I|Thread-1|[20190729_151515] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_151515\secondAssignment.20190729_151516.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 14200 ms
+» Test Steps:     5
+» Error(s):       0
+
+
+
+2019-07-29 15:15:33,696|I|Thread-1|[20190729_151515] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 17857 ms
+» Iterations:     [1] total 1
+» Test Steps:     5
+» Passed:         5
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\secondAssignment\output\20190729_151515\secondAssignment.20190729_151516.001.xlsx
+
+
+
+2019-07-29 15:15:33,829|I|main|[20190729_151515] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] now completed
+2019-07-29 15:15:33,830|I|main|[20190729_151515] all execution thread(s) have terminated
+2019-07-29 15:15:33,831|I|main|[20190729_151515] test run completed in about 18 seconds
+2019-07-29 15:15:33,907|I|main|No predefined nexial-setup found
+2019-07-29 15:15:33,945|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 15:15:33,946|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 15:15:33,947|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 15:15:33,948|I|main|generating HTML output for this execution to C:\projects\secondAssignment\output\20190729_151515\execution-output.html
+2019-07-29 15:15:34,713|I|main|generating JUnit XML output for this execution to C:\projects\secondAssignment\output\20190729_151515\junit.xml
+2019-07-29 15:15:34,768|I|main|generated JUnit report for this execution: C:\projects\secondAssignment\output\20190729_151515\junit.xml
+2019-07-29 15:15:34,770|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 15:15:34,770|I|main|skipped email notification as configured
+2019-07-29 15:15:34,774|I|main|exiting Nexial...
+2019-07-29 15:15:34,774|I|main|shutdown starts...
+2019-07-29 15:15:34,776|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 15:15:40,513|I|main|shutdown ends...
+2019-07-29 15:15:40,517|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 18 sec.
+| » Test Steps....: 5
+| » Passed........: 5
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-29 15:15:40,523|I|main|ALL PASSED!
+2019-07-29 15:15:40,528|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\secondAssignment\output\20190729_151515
+NEXIAL_EXECUTION_HTML: C:\projects\secondAssignment\output\20190729_151515\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\secondAssignment\output\20190729_151515\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

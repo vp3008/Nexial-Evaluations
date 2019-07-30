@@ -1,0 +1,12 @@
+{
+  "sql": "select * from department;",
+  "startTime": 1564401500693,
+  "elapsedTime": 5,
+  "rowCount": 3,
+  "columns": [
+    "id",
+    "dept_name"
+  ],
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

@@ -1,0 +1,338 @@
+2019-07-29 17:24:27,312|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-29 17:24:27,312|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\IssOp\secondAssignment.data.xlsx
+2019-07-29 17:24:27,312|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 17:24:27,312|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 17:24:27,312|I|Thread-1|(DELAYED) [20190729_172427] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] resolve RUN ID as 20190729_172427
+2019-07-29 17:24:27,312|I|Thread-1|(DELAYED) [20190729_172427] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] new thread started
+2019-07-29 17:24:27,312|I|Thread-1|No predefined nexial-setup found
+2019-07-29 17:24:27,375|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 17:24:27,375|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 17:24:27,375|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 17:24:27,437|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 17:24:28,235|I|Thread-1|[20190729_172427] executing C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx with 4 iteration(s)
+2019-07-29 17:24:28,235|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\captures
+2019-07-29 17:24:28,235|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\logs
+2019-07-29 17:24:29,758|I|Thread-1|[20190729_172427] merging test data to tmp file C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172428.001.xlsx
+2019-07-29 17:24:29,758|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 17:24:30,086|I|Thread-1|[20190729_172427] test script and test data merged to C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172428.001.xlsx
+2019-07-29 17:24:30,712|I|Thread-1|STARTS
+2019-07-29 17:24:30,740|I|Thread-1|secondAssignment.20190729_172428.001 - executing iteration #1 of 4; Iteration Id 1
+2019-07-29 17:24:30,744|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3 - executing test scenario
+2019-07-29 17:24:30,744|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1 - executing activity
+2019-07-29 17:24:31,358|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 17:24:31,358|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 17:24:31,358|I|Thread-1|init chrome
+2019-07-29 17:24:37,355|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 17:24:37,371|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 17:24:37,386|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 17:24:38,799|I|Thread-1|current browser window handle:CDwindow-C2F662AF48AC4598DD21B9FD519DCA90
+2019-07-29 17:24:38,832|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 17:24:39,435|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 17:24:39,871|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 17:24:40,476|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 17:24:40,492|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 17:24:40,523|I|Thread-1|click target via JS, @id=
+2019-07-29 17:24:41,903|I|Thread-1|clicked -> true
+2019-07-29 17:24:41,904|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 17:24:42,506|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 17:24:42,666|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 17:24:43,267|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 17:24:43,271|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  9|base.verbose(text) - 11
+2019-07-29 17:24:43,274|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 17:24:43,876|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 17:24:43,879|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("ATMECS", "www.atmecs.com/,https://www.glassdoor.co.in/Reviews/ATMECS-Reviews-E1318180.htm,https://www.glassdoor.co.in/.../Working-at-ATMECS-EI_IE1318180.11,17.htm,https://in.linkedin.com/company/atmecs-inc,https://mapr.com/partners/partner/atmecs-technologies-pvt-ltd/,https://www.glassdoor.com/Overview/Working-at-ATMECS-EI_IE1318180.11,17.htm,https://www.naukri.com/atmecs-technologies-pvt-ltd-jobs-careers-1089084,https://www.indeed.co.in/cmp/Atmecs-Technologies/reviews,https://www.ambitionbox.com/reviews/atmecs-technologies-reviews");' as ${query}
+2019-07-29 17:24:44,480|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table student (id int primary key, name text, dob DATE, address text))
+2019-07-29 17:24:44,548|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - new connection established for 'mydb'
+2019-07-29 17:24:44,918|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 368 ms with ERROR Error occurred when executing 'create table student (id int primary key, name text, dob DATE, address text)': [SQLITE_ERROR] SQL error or missing database (table student already exists)
+2019-07-29 17:24:44,920|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table student (id int primary key, name text, dob DATE, address text)'; stored result as ${queryResult}
+2019-07-29 17:24:45,521|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad");insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow"); insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow");)
+2019-07-29 17:24:45,524|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:24:45,525|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:24:45,527|I|Thread-1|Executing - insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad")
+2019-07-29 17:24:45,530|I|Thread-1|Executing - insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow")
+2019-07-29 17:24:45,533|I|Thread-1|Executing - insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow")
+2019-07-29 17:24:45,536|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:24:46,138|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from student;, $(syspath|out|fullpath)/student.csv)
+2019-07-29 17:24:46,147|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:24:46,181|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executed query in 32 ms with 3 row(s)
+2019-07-29 17:24:46,251|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from student;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\student.csv'
+2019-07-29 17:24:46,854|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table department(id int primary key, dept_name text);)
+2019-07-29 17:24:46,858|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:24:46,955|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executed query in 96 ms with 0 row(s)
+2019-07-29 17:24:46,961|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table department(id int primary key, dept_name text);'; stored result as ${queryResult}
+2019-07-29 17:24:47,563|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into department(100, "Computer Science"); insert into department(101, "Electical"); insert into department(102, "Chemical");)
+2019-07-29 17:24:47,567|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:24:47,568|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:24:47,571|I|Thread-1|Executing - insert into department(100, "Computer Science")
+2019-07-29 17:24:47,572|I|Thread-1|Executing - insert into department(101, "Electical")
+2019-07-29 17:24:47,577|I|Thread-1|Executing - insert into department(102, "Chemical")
+2019-07-29 17:24:47,582|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:24:48,184|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from department;, $(syspath|out|fullpath)/department.csv)
+2019-07-29 17:24:48,188|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:24:48,191|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 1 ms with 0 row(s)
+2019-07-29 17:24:48,216|I|Thread-1|secondAssignment.20190729_172428.001|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from department;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\department.csv'
+2019-07-29 17:24:48,745|I|Thread-1|[secondAssignment.20190729_172428.001|Scenario3] saving test scenario
+2019-07-29 17:24:48,887|I|Thread-1|[20190729_172427] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172428.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 18143 ms
+» Test Steps:     12
+» Error(s):       0
+
+
+
+2019-07-29 17:24:49,625|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\captures
+2019-07-29 17:24:49,625|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\logs
+2019-07-29 17:24:50,134|I|Thread-1|[20190729_172427] merging test data to tmp file C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172449.002.xlsx
+2019-07-29 17:24:50,135|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 17:24:50,278|I|Thread-1|[20190729_172427] test script and test data merged to C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172449.002.xlsx
+2019-07-29 17:24:50,566|I|Thread-1|STARTS
+2019-07-29 17:24:50,570|I|Thread-1|secondAssignment.20190729_172449.002 - executing iteration #2 of 4; Iteration Id 2
+2019-07-29 17:24:50,571|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3 - executing test scenario
+2019-07-29 17:24:50,571|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1 - executing activity
+2019-07-29 17:24:51,171|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 17:24:52,116|I|Thread-1|current browser window handle:CDwindow-C2F662AF48AC4598DD21B9FD519DCA90
+2019-07-29 17:24:52,134|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 17:24:52,734|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 17:24:52,965|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 17:24:53,572|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 17:24:53,619|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 17:24:53,650|I|Thread-1|click target via JS, @id=
+2019-07-29 17:24:55,932|I|Thread-1|clicked -> true
+2019-07-29 17:24:55,933|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 17:24:56,541|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 17:24:56,651|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 17:24:57,266|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 17:24:57,266|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  9|base.verbose(text) - 5
+2019-07-29 17:24:57,266|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 17:24:57,878|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 17:24:57,878|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("Sundar Pichai", "https://en.wikipedia.org/wiki/Sundar_Pichai,https://www.britannica.com/biography/Sundar-Pichai,https://www.crunchbase.com/person/sundar-pichai,https://www.instagram.com/sundarpichai/?hl=en,https://www.businesstoday.in/current/corporate/sundar-pichai.../289327.html");' as ${query}
+2019-07-29 17:24:58,487|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table student (id int primary key, name text, dob DATE, address text))
+2019-07-29 17:24:58,487|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:24:58,487|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'create table student (id int primary key, name text, dob DATE, address text)': [SQLITE_ERROR] SQL error or missing database (table student already exists)
+2019-07-29 17:24:58,487|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table student (id int primary key, name text, dob DATE, address text)'; stored result as ${queryResult}
+2019-07-29 17:24:59,101|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad");insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow"); insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow");)
+2019-07-29 17:24:59,101|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:24:59,101|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:24:59,101|I|Thread-1|Executing - insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad")
+2019-07-29 17:24:59,101|I|Thread-1|Executing - insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow")
+2019-07-29 17:24:59,101|I|Thread-1|Executing - insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow")
+2019-07-29 17:24:59,101|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:24:59,717|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from student;, $(syspath|out|fullpath)/student.csv)
+2019-07-29 17:24:59,723|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:24:59,729|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executed query in 5 ms with 3 row(s)
+2019-07-29 17:24:59,749|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from student;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\student.csv'
+2019-07-29 17:25:00,354|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table department(id int primary key, dept_name text);)
+2019-07-29 17:25:00,354|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:25:00,354|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'create table department(id int primary key, dept_name text);': [SQLITE_ERROR] SQL error or missing database (table department already exists)
+2019-07-29 17:25:00,354|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table department(id int primary key, dept_name text);'; stored result as ${queryResult}
+2019-07-29 17:25:00,963|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into department(100, "Computer Science"); insert into department(101, "Electical"); insert into department(102, "Chemical");)
+2019-07-29 17:25:00,963|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:25:00,963|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:25:00,963|I|Thread-1|Executing - insert into department(100, "Computer Science")
+2019-07-29 17:25:00,963|I|Thread-1|Executing - insert into department(101, "Electical")
+2019-07-29 17:25:00,963|I|Thread-1|Executing - insert into department(102, "Chemical")
+2019-07-29 17:25:00,963|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:25:01,572|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from department;, $(syspath|out|fullpath)/department.csv)
+2019-07-29 17:25:01,572|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:25:01,572|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 0 ms with 0 row(s)
+2019-07-29 17:25:01,588|I|Thread-1|secondAssignment.20190729_172449.002|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from department;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\department.csv'
+2019-07-29 17:25:01,791|I|Thread-1|[secondAssignment.20190729_172449.002|Scenario3] saving test scenario
+2019-07-29 17:25:01,904|I|Thread-1|[20190729_172427] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172449.002.xlsx
+| Iteration:      2
+\-------------------------------------------------------------------------------
+» Execution Time: 11315 ms
+» Test Steps:     12
+» Error(s):       0
+
+
+
+2019-07-29 17:25:02,426|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\captures
+2019-07-29 17:25:02,426|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\logs
+2019-07-29 17:25:02,959|I|Thread-1|[20190729_172427] merging test data to tmp file C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172502.003.xlsx
+2019-07-29 17:25:02,959|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 17:25:03,082|I|Thread-1|[20190729_172427] test script and test data merged to C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172502.003.xlsx
+2019-07-29 17:25:03,261|I|Thread-1|STARTS
+2019-07-29 17:25:03,263|I|Thread-1|secondAssignment.20190729_172502.003 - executing iteration #3 of 4; Iteration Id 3
+2019-07-29 17:25:03,264|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3 - executing test scenario
+2019-07-29 17:25:03,264|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1 - executing activity
+2019-07-29 17:25:03,864|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 17:25:04,820|I|Thread-1|current browser window handle:CDwindow-C2F662AF48AC4598DD21B9FD519DCA90
+2019-07-29 17:25:04,829|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 17:25:05,441|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 17:25:05,658|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 17:25:06,267|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 17:25:06,314|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 17:25:06,361|I|Thread-1|click target via JS, @id=
+2019-07-29 17:25:07,592|I|Thread-1|clicked -> true
+2019-07-29 17:25:07,593|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 17:25:08,195|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 17:25:08,396|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 17:25:08,996|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 17:25:08,998|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  9|base.verbose(text) - 10
+2019-07-29 17:25:09,002|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 17:25:09,602|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 17:25:09,602|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("Bill Gates", "https://en.wikipedia.org/wiki/Bill_Gates,https://www.gatesnotes.com/,,,,,https://www.forbes.com/profile/bill-gates/,https://www.biographyonline.net/business/bill-gates.html,https://www.youtube.com/channel/UCnEiGCE13SUI7ZvojTAVBKw,https://www.biography.com/business-figure/bill-gates");' as ${query}
+2019-07-29 17:25:10,214|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table student (id int primary key, name text, dob DATE, address text))
+2019-07-29 17:25:10,214|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:25:10,214|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'create table student (id int primary key, name text, dob DATE, address text)': [SQLITE_ERROR] SQL error or missing database (table student already exists)
+2019-07-29 17:25:10,214|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table student (id int primary key, name text, dob DATE, address text)'; stored result as ${queryResult}
+2019-07-29 17:25:10,823|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad");insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow"); insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow");)
+2019-07-29 17:25:10,823|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:25:10,823|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:25:10,823|I|Thread-1|Executing - insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad")
+2019-07-29 17:25:10,823|I|Thread-1|Executing - insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow")
+2019-07-29 17:25:10,823|I|Thread-1|Executing - insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow")
+2019-07-29 17:25:10,823|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:25:11,429|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from student;, $(syspath|out|fullpath)/student.csv)
+2019-07-29 17:25:11,429|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:25:11,429|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executed query in 0 ms with 3 row(s)
+2019-07-29 17:25:11,445|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from student;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\student.csv'
+2019-07-29 17:25:12,054|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table department(id int primary key, dept_name text);)
+2019-07-29 17:25:12,054|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:25:12,054|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'create table department(id int primary key, dept_name text);': [SQLITE_ERROR] SQL error or missing database (table department already exists)
+2019-07-29 17:25:12,054|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table department(id int primary key, dept_name text);'; stored result as ${queryResult}
+2019-07-29 17:25:12,655|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into department(100, "Computer Science"); insert into department(101, "Electical"); insert into department(102, "Chemical");)
+2019-07-29 17:25:12,655|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:25:12,655|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:25:12,655|I|Thread-1|Executing - insert into department(100, "Computer Science")
+2019-07-29 17:25:12,655|I|Thread-1|Executing - insert into department(101, "Electical")
+2019-07-29 17:25:12,655|I|Thread-1|Executing - insert into department(102, "Chemical")
+2019-07-29 17:25:12,655|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:25:13,267|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from department;, $(syspath|out|fullpath)/department.csv)
+2019-07-29 17:25:13,267|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:25:13,267|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 0 ms with 0 row(s)
+2019-07-29 17:25:13,282|I|Thread-1|secondAssignment.20190729_172502.003|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from department;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\department.csv'
+2019-07-29 17:25:13,439|I|Thread-1|[secondAssignment.20190729_172502.003|Scenario3] saving test scenario
+2019-07-29 17:25:13,494|I|Thread-1|[20190729_172427] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172502.003.xlsx
+| Iteration:      3
+\-------------------------------------------------------------------------------
+» Execution Time: 10230 ms
+» Test Steps:     12
+» Error(s):       0
+
+
+
+2019-07-29 17:25:13,869|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\captures
+2019-07-29 17:25:13,869|I|Thread-1|[20190729_172427] create directory C:\projects\secondAssignment\output\20190729_172427\logs
+2019-07-29 17:25:14,259|I|Thread-1|[20190729_172427] merging test data to tmp file C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172513.004.xlsx
+2019-07-29 17:25:14,259|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 17:25:14,369|I|Thread-1|[20190729_172427] test script and test data merged to C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172513.004.xlsx
+2019-07-29 17:25:14,572|I|Thread-1|STARTS
+2019-07-29 17:25:14,572|I|Thread-1|secondAssignment.20190729_172513.004 - executing iteration #4 of 4; Iteration Id 4
+2019-07-29 17:25:14,572|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3 - executing test scenario
+2019-07-29 17:25:14,572|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1 - executing activity
+2019-07-29 17:25:15,172|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  5|web.open(url) - executing open(url)(https://www.google.com/)
+2019-07-29 17:25:16,102|I|Thread-1|current browser window handle:CDwindow-C2F662AF48AC4598DD21B9FD519DCA90
+2019-07-29 17:25:16,133|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  5|web.open(url) - PASS opened URL https://www.google.com/
+2019-07-29 17:25:16,744|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input, ${my_var})
+2019-07-29 17:25:17,016|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="tsf"]/div[2]/div/div[1]/div/div[1]/input'
+2019-07-29 17:25:17,618|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  7|web.click(locator) - executing click(locator)(//*[@id="tsf"]/div[2]/div/div[3]/center/input[1])
+2019-07-29 17:25:17,655|I|Thread-1|clicking '//*[@id="tsf"]/div[2]/div/div[3]/center/input[1]'...
+2019-07-29 17:25:17,670|I|Thread-1|click target via JS, @id=
+2019-07-29 17:25:19,134|I|Thread-1|clicked -> true
+2019-07-29 17:25:19,135|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  7|web.click(locator) - PASS click via JS event
+2019-07-29 17:25:19,742|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - executing saveTextArray(var,locator)(linkArray, //*[@class = "iUh30"])
+2019-07-29 17:25:19,903|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  8|web.saveTextArray(var,loc - PASS stored content of '//*[@class = "iUh30"]' as ${linkArray}
+2019-07-29 17:25:20,527|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  9|base.verbose(text) - executing verbose(text)($(array|length|${linkArray}))
+2019-07-29 17:25:20,527|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  9|base.verbose(text) - 7
+2019-07-29 17:25:20,527|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|#  9|base.verbose(text) - PASS 
+2019-07-29 17:25:21,141|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 10|base.save(var,value) - executing save(var,value)(query, Insert into info values("${my_var}", "${linkArray}");)
+2019-07-29 17:25:21,141|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 10|base.save(var,value) - PASS stored 'Insert into info values("Sachin Tendulkar", "https://en.wikipedia.org/wiki/Sachin_Tendulkar,https://www.cricbuzz.com/profiles/25/sachin-tendulkar,www.espncricinfo.com/india/content/player/35320.html,,,,");' as ${query}
+2019-07-29 17:25:21,750|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table student (id int primary key, name text, dob DATE, address text))
+2019-07-29 17:25:21,750|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:25:21,750|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'create table student (id int primary key, name text, dob DATE, address text)': [SQLITE_ERROR] SQL error or missing database (table student already exists)
+2019-07-29 17:25:21,750|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 11|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table student (id int primary key, name text, dob DATE, address text)'; stored result as ${queryResult}
+2019-07-29 17:25:22,362|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad");insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow"); insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow");)
+2019-07-29 17:25:22,362|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:25:22,362|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:25:22,362|I|Thread-1|Executing - insert into student values(101, "Deepankar", '30-AUG-1994', "Hyderabad")
+2019-07-29 17:25:22,362|I|Thread-1|Executing - insert into student values(102, "Deepak", '19-JAN-1995', "Lucknow")
+2019-07-29 17:25:22,362|I|Thread-1|Executing - insert into student values(103, "Sanyam", '12-JUL-1998', "Lucknow")
+2019-07-29 17:25:22,362|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 12|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:25:22,963|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from student;, $(syspath|out|fullpath)/student.csv)
+2019-07-29 17:25:22,966|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:25:22,973|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - executed query in 5 ms with 3 row(s)
+2019-07-29 17:25:22,994|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 13|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from student;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\student.csv'
+2019-07-29 17:25:23,601|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executing runSQL(var,db,sql)(queryResult, mydb, create table department(id int primary key, dept_name text);)
+2019-07-29 17:25:23,601|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - reusing established connection 'mydb'
+2019-07-29 17:25:23,601|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - executed query in 0 ms with ERROR Error occurred when executing 'create table department(id int primary key, dept_name text);': [SQLITE_ERROR] SQL error or missing database (table department already exists)
+2019-07-29 17:25:23,601|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 14|rdbms.runSQL(var,db,sql) - PASS executed SQL 'create table department(id int primary key, dept_name text);'; stored result as ${queryResult}
+2019-07-29 17:25:24,201|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - executing runSQLs(var,db,sqls)(insertQueries, mydb, insert into department(100, "Computer Science"); insert into department(101, "Electical"); insert into department(102, "Chemical");)
+2019-07-29 17:25:24,205|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - found 3 qualified query(s) to execute
+2019-07-29 17:25:24,206|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - reusing established connection 'mydb'
+2019-07-29 17:25:24,207|I|Thread-1|Executing - insert into department(100, "Computer Science")
+2019-07-29 17:25:24,208|I|Thread-1|Executing - insert into department(101, "Electical")
+2019-07-29 17:25:24,209|I|Thread-1|Executing - insert into department(102, "Chemical")
+2019-07-29 17:25:24,214|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 15|rdbms.runSQLs(var,db,sqls - PASS executed 3 SQL(s); 3 results stored as ${insertQueries}
+2019-07-29 17:25:24,828|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executing saveResult(db,sql,output)(mydb, select * from department;, $(syspath|out|fullpath)/department.csv)
+2019-07-29 17:25:24,828|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - reusing established connection 'mydb'
+2019-07-29 17:25:24,828|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - executed query in 0 ms with 0 row(s)
+2019-07-29 17:25:24,843|I|Thread-1|secondAssignment.20190729_172513.004|Scenario3|Activity 1|# 16|rdbms.saveResult(db,sql,o - PASS executed SQL 'select * from department;'; stored result to 'C:\projects\secondAssignment\output\20190729_172427\department.csv'
+2019-07-29 17:25:25,031|I|Thread-1|[secondAssignment.20190729_172513.004|Scenario3] saving test scenario
+2019-07-29 17:25:25,078|I|Thread-1|[20190729_172427] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172513.004.xlsx
+| Iteration:      4
+\-------------------------------------------------------------------------------
+» Execution Time: 10506 ms
+» Test Steps:     12
+» Error(s):       0
+
+
+
+2019-07-29 17:25:25,453|I|Thread-1|[20190729_172427] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 58347 ms
+» Iterations:     [1,2,3,4] total 4
+» Test Steps:     48
+» Passed:         48
+» Error(s):       0
+» Iteration 1 of 4: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172428.001.xlsx
+» Iteration 2 of 4: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172449.002.xlsx
+» Iteration 3 of 4: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172502.003.xlsx
+» Iteration 4 of 4: C:\projects\secondAssignment\output\20190729_172427\secondAssignment.20190729_172513.004.xlsx
+
+
+
+2019-07-29 17:25:26,336|I|main|[20190729_172427] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] now completed
+2019-07-29 17:25:26,336|I|main|[20190729_172427] all execution thread(s) have terminated
+2019-07-29 17:25:26,336|I|main|[20190729_172427] test run completed in about 59 seconds
+2019-07-29 17:25:26,414|I|main|No predefined nexial-setup found
+2019-07-29 17:25:26,460|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 17:25:26,460|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 17:25:26,460|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 17:25:26,460|I|main|generating HTML output for this execution to C:\projects\secondAssignment\output\20190729_172427\execution-output.html
+2019-07-29 17:25:27,215|I|main|generating JUnit XML output for this execution to C:\projects\secondAssignment\output\20190729_172427\junit.xml
+2019-07-29 17:25:27,255|I|main|generated JUnit report for this execution: C:\projects\secondAssignment\output\20190729_172427\junit.xml
+2019-07-29 17:25:27,255|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 17:25:27,255|I|main|skipped email notification as configured
+2019-07-29 17:25:27,255|I|main|exiting Nexial...
+2019-07-29 17:25:27,255|I|main|shutdown starts...
+2019-07-29 17:25:27,255|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 17:25:36,987|I|main|shutdown ends...
+2019-07-29 17:25:36,988|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 59 sec.
+| » Test Steps....: 48
+| » Passed........: 48
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-29 17:25:36,988|I|main|ALL PASSED!
+2019-07-29 17:25:36,989|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\secondAssignment\output\20190729_172427
+NEXIAL_EXECUTION_HTML: C:\projects\secondAssignment\output\20190729_172427\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\secondAssignment\output\20190729_172427\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

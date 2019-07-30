@@ -1,0 +1,8 @@
+{
+  "sql": "select * from info;",
+  "startTime": 1564399086407,
+  "elapsedTime": 1,
+  "rowCount": 0,
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

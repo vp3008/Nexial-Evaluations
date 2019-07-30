@@ -1,0 +1,14 @@
+{
+  "sql": "select * from student;",
+  "startTime": 1564401498843,
+  "elapsedTime": 0,
+  "rowCount": 3,
+  "columns": [
+    "id",
+    "name",
+    "dob",
+    "address"
+  ],
+  "rolledBack": false,
+  "sqlType": "SELECT"
+}

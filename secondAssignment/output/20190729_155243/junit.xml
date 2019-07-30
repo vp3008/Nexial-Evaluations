@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190729_155243" timestamp="2019-07-29T15:52:43" time="76.078" tests="42" errors="7">
+  <testsuite id="1" name="secondAssignment" package="secondAssignment" hostname="ATMECSINDT-043" timestamp="2019-07-29T15:52:44" time="72.826" tests="42" errors="7">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="secondAssignment.xlsx" />
+      <property name="Logs" value="C:\projects\secondAssignment\output\20190729_155243\logs\nexial-20190729_155243.log" />
+      <property name="Data File" value="secondAssignment.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx Scenario2" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-07-29T15:52:48" time="69.681">
+      <failure type="failure found in test activity" message="6 of 37 FAILED. Check C:\projects\secondAssignment\output\20190729_155243\secondAssignment.20190729_155244.001.xlsx for execution result, C:\projects\secondAssignment\output\20190729_155243\logs\nexial-20190729_155243.log for execution logs" />
+      <system-out>Total : 37
+Passed: 31
+Failed: 6
+Output: C:\projects\secondAssignment\output\20190729_155243\secondAssignment.20190729_155244.001.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_155243\logs\nexial-20190729_155243.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario2" timestamp="2019-07-29T15:53:51" time="6.356">
+      <failure type="failure found in test activity" message="1 of 5 FAILED. Check C:\projects\secondAssignment\output\20190729_155243\secondAssignment.20190729_155244.001.xlsx for execution result, C:\projects\secondAssignment\output\20190729_155243\logs\nexial-20190729_155243.log for execution logs" />
+      <system-out>Total : 5
+Passed: 4
+Failed: 1
+Output: C:\projects\secondAssignment\output\20190729_155243\secondAssignment.20190729_155244.001.xlsx
+Logs  : C:\projects\secondAssignment\output\20190729_155243\logs\nexial-20190729_155243.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

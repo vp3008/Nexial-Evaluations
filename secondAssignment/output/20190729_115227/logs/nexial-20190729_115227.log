@@ -1,0 +1,220 @@
+2019-07-29 11:52:27,291|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-29 11:52:27,296|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\ygdfl\secondAssignment.data.xlsx
+2019-07-29 11:52:27,296|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-29 11:52:27,296|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-29 11:52:27,296|I|Thread-1|(DELAYED) [20190729_115227] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] resolve RUN ID as 20190729_115227
+2019-07-29 11:52:27,296|I|Thread-1|(DELAYED) [20190729_115227] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] new thread started
+2019-07-29 11:52:27,296|I|Thread-1|No predefined nexial-setup found
+2019-07-29 11:52:27,373|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 11:52:27,374|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 11:52:27,375|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 11:52:27,401|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-29 11:52:28,214|I|Thread-1|[20190729_115227] executing C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx with 1 iteration(s)
+2019-07-29 11:52:28,220|I|Thread-1|[20190729_115227] create directory C:\projects\secondAssignment\output\20190729_115227\captures
+2019-07-29 11:52:28,223|I|Thread-1|[20190729_115227] create directory C:\projects\secondAssignment\output\20190729_115227\logs
+2019-07-29 11:52:29,002|I|Thread-1|[20190729_115227] merging test data to tmp file C:\projects\secondAssignment\output\20190729_115227\secondAssignment.20190729_115228.001.xlsx
+2019-07-29 11:52:29,004|I|Thread-1|refetching data from C:\projects\secondAssignment\artifact\data\secondAssignment.data.xlsx
+2019-07-29 11:52:29,322|I|Thread-1|[20190729_115227] test script and test data merged to C:\projects\secondAssignment\output\20190729_115227\secondAssignment.20190729_115228.001.xlsx
+2019-07-29 11:52:30,166|I|Thread-1|STARTS
+2019-07-29 11:52:30,192|I|Thread-1|secondAssignment.20190729_115228.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-29 11:52:30,200|I|Thread-1|secondAssignment.20190729_115228.001|Scenario - executing test scenario
+2019-07-29 11:52:30,202|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1 - executing activity
+2019-07-29 11:52:30,805|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://opensource-demo.orangehrmlive.com/)
+2019-07-29 11:52:30,809|I|Thread-1|No valid instance of webdriver, initializing...
+2019-07-29 11:52:30,817|I|Thread-1|init chrome
+2019-07-29 11:52:36,780|I|Thread-1|browser initialization completed for 'chrome'
+2019-07-29 11:52:36,789|I|Thread-1|setting browser polling wait time to 800 ms
+2019-07-29 11:52:36,794|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-07-29 11:52:41,248|I|Thread-1|current browser window handle:CDwindow-8CAAC6564E9CACD43F92BA908800B2CE
+2019-07-29 11:52:41,266|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  5|web.open(url) - PASS opened URL https://opensource-demo.orangehrmlive.com/
+2019-07-29 11:52:41,870|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  6|web.type(locator,value) - executing type(locator,value)(//*[@id="txtUsername"], Admin)
+2019-07-29 11:52:42,056|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  6|web.type(locator,value) - PASS typed text at '//*[@id="txtUsername"]'
+2019-07-29 11:52:42,659|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  7|web.type(locator,value) - executing type(locator,value)(//*[@id="txtPassword"], admin123)
+2019-07-29 11:52:42,833|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  7|web.type(locator,value) - PASS typed text at '//*[@id="txtPassword"]'
+2019-07-29 11:52:43,437|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  8|web.click(locator) - executing click(locator)(//*[@id="btnLogin"])
+2019-07-29 11:52:43,488|I|Thread-1|clicking '//*[@id="btnLogin"]'...
+2019-07-29 11:52:43,507|I|Thread-1|click target via JS, @id=btnLogin
+2019-07-29 11:52:47,193|I|Thread-1|clicked -> true
+2019-07-29 11:52:47,194|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  8|web.click(locator) - PASS click via JS event
+2019-07-29 11:52:47,797|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  9|web.click(locator) - executing click(locator)(//*[@id="menu_pim_viewPimModule"]/b)
+2019-07-29 11:52:47,852|I|Thread-1|clicking '//*[@id="menu_pim_viewPimModule"]/b'...
+2019-07-29 11:52:47,864|I|Thread-1|click target via JS, @id=
+2019-07-29 11:52:49,163|I|Thread-1|clicked -> true
+2019-07-29 11:52:49,165|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|#  9|web.click(locator) - PASS click via JS event
+2019-07-29 11:52:49,769|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 10|web.click(locator) - executing click(locator)(//*[@id="btnAdd"])
+2019-07-29 11:52:49,822|I|Thread-1|clicking '//*[@id="btnAdd"]'...
+2019-07-29 11:52:49,835|I|Thread-1|click target via JS, @id=btnAdd
+2019-07-29 11:52:50,537|I|Thread-1|clicked -> true
+2019-07-29 11:52:50,538|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 10|web.click(locator) - PASS click via JS event
+2019-07-29 11:52:51,140|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 11|web.type(locator,value) - executing type(locator,value)(//*[@id="firstName"], Deepankar)
+2019-07-29 11:52:51,324|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 11|web.type(locator,value) - PASS typed text at '//*[@id="firstName"]'
+2019-07-29 11:52:51,927|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 12|web.type(locator,value) - executing type(locator,value)(//*[@id="lastName"], Pathak)
+2019-07-29 11:52:52,085|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 12|web.type(locator,value) - PASS typed text at '//*[@id="lastName"]'
+2019-07-29 11:52:52,688|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 13|web.type(locator,value) - executing type(locator,value)(//*[@id="employeeId"], 1060)
+2019-07-29 11:52:52,855|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 13|web.type(locator,value) - PASS typed text at '//*[@id="employeeId"]'
+2019-07-29 11:52:53,458|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 14|web.click(locator) - executing click(locator)(//*[@id="chkLogin"])
+2019-07-29 11:52:53,512|I|Thread-1|clicking '//*[@id="chkLogin"]'...
+2019-07-29 11:52:53,528|I|Thread-1|click target via JS, @id=chkLogin
+2019-07-29 11:52:53,550|I|Thread-1|clicked -> true
+2019-07-29 11:52:53,551|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 14|web.click(locator) - PASS click via JS event
+2019-07-29 11:52:54,154|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 15|web.type(locator,value) - executing type(locator,value)(//*[@id="user_name"], deepankar.pathak)
+2019-07-29 11:52:54,331|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 15|web.type(locator,value) - PASS typed text at '//*[@id="user_name"]'
+2019-07-29 11:52:54,935|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 16|web.type(locator,value) - executing type(locator,value)(//*[@id="user_password"], deepankar)
+2019-07-29 11:52:55,131|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 16|web.type(locator,value) - PASS typed text at '//*[@id="user_password"]'
+2019-07-29 11:52:55,735|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 17|web.type(locator,value) - executing type(locator,value)(//*[@id="re_password"], deepankar)
+2019-07-29 11:52:55,924|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 17|web.type(locator,value) - PASS typed text at '//*[@id="re_password"]'
+2019-07-29 11:52:56,527|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 18|web.click(locator) - executing click(locator)(//*[@id="btnSave"])
+2019-07-29 11:52:56,573|I|Thread-1|clicking '//*[@id="btnSave"]'...
+2019-07-29 11:52:56,584|I|Thread-1|click target via JS, @id=btnSave
+2019-07-29 11:52:57,604|I|Thread-1|clicked -> true
+2019-07-29 11:52:57,609|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 18|web.click(locator) - PASS click via JS event
+2019-07-29 11:52:58,213|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 19|web.click(locator) - executing click(locator)(//*[@id="menu_admin_viewAdminModule"]/b)
+2019-07-29 11:52:58,281|I|Thread-1|clicking '//*[@id="menu_admin_viewAdminModule"]/b'...
+2019-07-29 11:52:58,299|I|Thread-1|click target via JS, @id=
+2019-07-29 11:52:59,555|I|Thread-1|clicked -> true
+2019-07-29 11:52:59,556|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 19|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:00,158|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 20|web.type(locator,value) - executing type(locator,value)(//*[@id="searchSystemUser_userName"], deepankar.pathak)
+2019-07-29 11:53:00,375|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 20|web.type(locator,value) - PASS typed text at '//*[@id="searchSystemUser_userName"]'
+2019-07-29 11:53:00,978|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 21|web.type(locator,value) - executing type(locator,value)(//*[@id="searchSystemUser_employeeName_empName"], Deepankar Pathak)
+2019-07-29 11:53:01,214|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 21|web.type(locator,value) - PASS typed text at '//*[@id="searchSystemUser_employeeName_empName"]'
+2019-07-29 11:53:01,817|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 22|web.click(locator) - executing click(locator)(//*[@id="searchBtn"])
+2019-07-29 11:53:01,870|I|Thread-1|clicking '//*[@id="searchBtn"]'...
+2019-07-29 11:53:01,883|I|Thread-1|click target via JS, @id=searchBtn
+2019-07-29 11:53:02,313|I|Thread-1|clicked -> true
+2019-07-29 11:53:02,314|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 22|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:02,915|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 23|web.click(locator) - executing click(locator)(//*[@id="menu_leave_viewLeaveModule"]/b)
+2019-07-29 11:53:02,976|I|Thread-1|clicking '//*[@id="menu_leave_viewLeaveModule"]/b'...
+2019-07-29 11:53:03,004|I|Thread-1|click target via JS, @id=
+2019-07-29 11:53:04,574|I|Thread-1|clicked -> true
+2019-07-29 11:53:04,575|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 23|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:05,177|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 24|web.click(locator) - executing click(locator)(//*[@id="menu_leave_assignLeave"])
+2019-07-29 11:53:05,231|I|Thread-1|clicking '//*[@id="menu_leave_assignLeave"]'...
+2019-07-29 11:53:05,246|I|Thread-1|click target via JS, @id=menu_leave_assignLeave
+2019-07-29 11:53:05,996|I|Thread-1|clicked -> true
+2019-07-29 11:53:05,997|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 24|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:06,598|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 25|web.type(locator,value) - executing type(locator,value)(//*[@id="assignleave_txtEmployee_empName"], Deepankar Pathak)
+2019-07-29 11:53:06,843|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 25|web.type(locator,value) - PASS typed text at '//*[@id="assignleave_txtEmployee_empName"]'
+2019-07-29 11:53:07,446|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 26|web.select(locator,text) - executing select(locator,text)(//*[@id="assignleave_txtLeaveType"], Vacation US)
+2019-07-29 11:53:07,576|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 26|web.select(locator,text) - PASS selected 'Vacation US' from '//*[@id="assignleave_txtLeaveType"]'
+2019-07-29 11:53:08,179|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 27|web.click(locator) - executing click(locator)(//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img)
+2019-07-29 11:53:08,245|I|Thread-1|clicking '//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img'...
+2019-07-29 11:53:08,261|I|Thread-1|click target via JS, @id=
+2019-07-29 11:53:08,332|I|Thread-1|clicked -> true
+2019-07-29 11:53:08,334|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 27|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:08,936|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 28|web.click(locator) - executing click(locator)(//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[2]/a)
+2019-07-29 11:53:08,986|I|Thread-1|clicking '//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[2]/a'...
+2019-07-29 11:53:09,001|I|Thread-1|click target via JS, @id=
+2019-07-29 11:53:09,023|I|Thread-1|clicked -> true
+2019-07-29 11:53:09,024|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 28|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:09,627|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 29|web.click(locator) - executing click(locator)(//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img)
+2019-07-29 11:53:09,687|I|Thread-1|clicking '//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img'...
+2019-07-29 11:53:09,702|I|Thread-1|click target via JS, @id=
+2019-07-29 11:53:09,742|I|Thread-1|clicked -> true
+2019-07-29 11:53:09,743|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 29|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:10,346|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 30|web.click(locator) - executing click(locator)(//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[3]/a)
+2019-07-29 11:53:10,396|I|Thread-1|clicking '//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[3]/a'...
+2019-07-29 11:53:10,410|I|Thread-1|click target via JS, @id=
+2019-07-29 11:53:10,446|I|Thread-1|clicked -> true
+2019-07-29 11:53:10,447|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 30|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:11,051|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 31|web.type(locator,value) - executing type(locator,value)(//*[@id="assignleave_txtComment"], Sick Leave)
+2019-07-29 11:53:11,280|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 31|web.type(locator,value) - PASS typed text at '//*[@id="assignleave_txtComment"]'
+2019-07-29 11:53:11,883|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 32|web.click(locator) - executing click(locator)(//*[@id="assignBtn"])
+2019-07-29 11:53:11,931|I|Thread-1|clicking '//*[@id="assignBtn"]'...
+2019-07-29 11:53:11,946|I|Thread-1|click target via JS, @id=assignBtn
+2019-07-29 11:53:11,969|I|Thread-1|clicked -> true
+2019-07-29 11:53:11,971|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 32|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:12,572|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 33|web.click(locator) - executing click(locator)(//*[@id="confirmOkButton"])
+2019-07-29 11:53:12,630|I|Thread-1|clicking '//*[@id="confirmOkButton"]'...
+2019-07-29 11:53:12,642|I|Thread-1|click target via JS, @id=confirmOkButton
+2019-07-29 11:53:13,094|I|Thread-1|clicked -> true
+2019-07-29 11:53:13,095|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 33|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:13,696|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 34|web.click(locator) - executing click(locator)(//*[@id="menu_admin_viewAdminModule"])
+2019-07-29 11:53:13,762|I|Thread-1|clicking '//*[@id="menu_admin_viewAdminModule"]'...
+2019-07-29 11:53:13,779|I|Thread-1|click target via JS, @id=menu_admin_viewAdminModule
+2019-07-29 11:53:14,488|I|Thread-1|clicked -> true
+2019-07-29 11:53:14,489|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 34|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:15,091|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 35|web.click(locator) - executing click(locator)(//*[@id="menu_admin_viewAdminModule"])
+2019-07-29 11:53:15,138|I|Thread-1|clicking '//*[@id="menu_admin_viewAdminModule"]'...
+2019-07-29 11:53:15,164|I|Thread-1|click target via JS, @id=menu_admin_viewAdminModule
+2019-07-29 11:53:15,895|I|Thread-1|clicked -> true
+2019-07-29 11:53:15,896|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 35|web.click(locator) - PASS click via JS event
+2019-07-29 11:53:16,497|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 36|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_employeeName_empName"], Deepankar Pathak)
+2019-07-29 11:53:17,385|E|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 36|web.type(locator,value) - EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_employeeName_empName"]', 'Deepankar Pathak')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_employeeName_empName"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:17,667|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 36|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_employeeName_empName"]', 'Deepankar Pathak')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_employeeName_empName"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:18,281|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 37|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_userName"], deepankar.pathak)
+2019-07-29 11:53:19,131|E|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 37|web.type(locator,value) - EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_userName"]', 'deepankar.pathak')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_userName"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:19,199|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 37|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_userName"]', 'deepankar.pathak')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_userName"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:19,808|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 38|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_password"], deepankar)
+2019-07-29 11:53:20,692|E|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 38|web.type(locator,value) - EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_password"]', 'deepankar')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_password"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:20,754|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 38|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_password"]', 'deepankar')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_password"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:21,360|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 39|web.type(locator,value) - executing type(locator,value)(//*[@id="systemUser_confirmPassword"], deepankar)
+2019-07-29 11:53:22,236|E|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 39|web.type(locator,value) - EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_confirmPassword"]', 'deepankar')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_confirmPassword"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:22,282|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 39|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//*[@id="systemUser_confirmPassword"]', 'deepankar')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="systemUser_confirmPassword"]"}   (Session info: chrome=75.0.3770.142)...
+2019-07-29 11:53:22,889|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 40|web.click(locator) - executing click(locator)(//*[@id="btnSave"])
+2019-07-29 11:53:23,763|I|Thread-1|secondAssignment.20190729_115228.001|Scenario|Activity 1|# 40|web.click(locator) - FAIL No element via locator '//*[@id="btnSave"]'
+2019-07-29 11:53:24,156|I|Thread-1|[secondAssignment.20190729_115228.001|Scenario] saving test scenario
+2019-07-29 11:53:24,263|I|Thread-1|[20190729_115227] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\secondAssignment\output\20190729_115227\secondAssignment.20190729_115228.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 54066 ms
+» Test Steps:     36
+» Error(s):       5
+
+
+
+2019-07-29 11:53:24,993|I|Thread-1|[20190729_115227] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 57893 ms
+» Iterations:     [1] total 1
+» Test Steps:     36
+» Passed:         31
+» Error(s):       5
+» Iteration 1 of 1: C:\projects\secondAssignment\output\20190729_115227\secondAssignment.20190729_115228.001.xlsx
+
+
+
+2019-07-29 11:53:25,086|I|main|[20190729_115227] [C:\projects\secondAssignment\artifact\script\secondAssignment.xlsx] now completed
+2019-07-29 11:53:25,088|I|main|[20190729_115227] all execution thread(s) have terminated
+2019-07-29 11:53:25,091|I|main|[20190729_115227] test run completed in about 58 seconds
+2019-07-29 11:53:25,190|I|main|No predefined nexial-setup found
+2019-07-29 11:53:25,235|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-29 11:53:25,237|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-29 11:53:25,238|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-29 11:53:25,239|I|main|generating HTML output for this execution to C:\projects\secondAssignment\output\20190729_115227\execution-output.html
+2019-07-29 11:53:25,931|I|main|generating JUnit XML output for this execution to C:\projects\secondAssignment\output\20190729_115227\junit.xml
+2019-07-29 11:53:25,975|I|main|generated JUnit report for this execution: C:\projects\secondAssignment\output\20190729_115227\junit.xml
+2019-07-29 11:53:25,977|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-29 11:53:25,977|I|main|skipped email notification as configured
+2019-07-29 11:53:25,979|I|main|exiting Nexial...
+2019-07-29 11:53:25,979|I|main|shutdown starts...
+2019-07-29 11:53:25,981|I|main|Shutting down 'chrome' webdriver...
+2019-07-29 11:53:31,675|I|main|shutdown ends...
+2019-07-29 11:53:31,681|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 58 sec.
+| » Test Steps....: 36
+| » Passed........: 31
+| » Failed........: 5
+| » Success Rate..: 86.11%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-29 11:53:31,682|E|main|failure found; success rate is 86.11%
+2019-07-29 11:53:31,692|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\secondAssignment\output\20190729_115227
+NEXIAL_EXECUTION_HTML: C:\projects\secondAssignment\output\20190729_115227\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\secondAssignment\output\20190729_115227\junit.xml
+NEXIAL_SUCCESS_RATE:   86.11%
+NEXIAL_EXIT_STATUS:    -13
