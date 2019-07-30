@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190720_170914" timestamp="2019-07-20T17:09:14" time="15.035" tests="16" errors="0">
+  <testsuite id="1" name="firstEvaluation" package="firstEvaluation" hostname="DESKTOP-UOIH0F7" timestamp="2019-07-20T17:09:15" time="11.341" tests="16" errors="0">
+    <properties>
+      <property name="Run From" value="DESKTOP-UOIH0F7" />
+      <property name="Run OS" value="x86 Windows 10 10.0" />
+      <property name="Run User" value="Deepankar Pathak" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="firstEvaluation.xlsx" />
+      <property name="Logs" value="C:\projects\firstEvaluation\output\20190720_170914\logs\nexial-20190720_170914.log" />
+      <property name="Data File" value="firstEvaluation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="JsonScenario" timestamp="2019-07-20T17:09:16" time="10.326">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190720_170914\firstEvaluation.20190720_170915.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190720_170914\logs\nexial-20190720_170914.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="JsonScenario" timestamp="2019-07-20T17:09:17" time="8.885">
+      <system-out>Total : 11
+Passed: 11
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190720_170914\firstEvaluation.20190720_170915.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190720_170914\logs\nexial-20190720_170914.log</system-out>
+    </testcase>
+    <testcase id="Activity 3" name="Activity 3" classname="JsonScenario" timestamp="2019-07-20T17:09:24" time="2.094">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190720_170914\firstEvaluation.20190720_170915.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190720_170914\logs\nexial-20190720_170914.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190720_153347" timestamp="2019-07-20T15:33:47" time="11.019" tests="11" errors="0">
+  <testsuite id="1" name="firstEvaluation" package="firstEvaluation" hostname="DESKTOP-UOIH0F7" timestamp="2019-07-20T15:33:48" time="8.192" tests="11" errors="0">
+    <properties>
+      <property name="Run From" value="DESKTOP-UOIH0F7" />
+      <property name="Run OS" value="x86 Windows 10 10.0" />
+      <property name="Run User" value="Deepankar Pathak" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="firstEvaluation.xlsx" />
+      <property name="Logs" value="C:\projects\firstEvaluation\output\20190720_153347\logs\nexial-20190720_153347.log" />
+      <property name="Data File" value="firstEvaluation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="JsonScenario" timestamp="2019-07-20T15:33:49" time="7.207">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190720_153347\firstEvaluation.20190720_153348.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190720_153347\logs\nexial-20190720_153347.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="JsonScenario" timestamp="2019-07-20T15:33:50" time="5.740">
+      <system-out>Total : 9
+Passed: 9
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190720_153347\firstEvaluation.20190720_153348.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190720_153347\logs\nexial-20190720_153347.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

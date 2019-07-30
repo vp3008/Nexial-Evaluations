@@ -1,0 +1,75 @@
+2019-07-20 13:31:28,981|I|Thread-1|(DELAYED) nexial-core dev_0581 starting up...
+2019-07-20 13:31:28,984|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1\AppData\Local\Temp\qDofT\firstEvaluation.data.xlsx
+2019-07-20 13:31:28,984|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-20 13:31:28,984|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-20 13:31:28,984|I|Thread-1|(DELAYED) [20190720_133128] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] resolve RUN ID as 20190720_133128
+2019-07-20 13:31:28,984|I|Thread-1|(DELAYED) [20190720_133128] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] new thread started
+2019-07-20 13:31:28,984|I|Thread-1|No predefined nexial-setup found
+2019-07-20 13:31:29,039|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-20 13:31:29,040|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-20 13:31:29,040|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-20 13:31:29,145|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-20 13:31:30,313|I|Thread-1|[20190720_133128] executing C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx with 1 iteration(s)
+2019-07-20 13:31:30,319|I|Thread-1|[20190720_133128] create directory C:\projects\firstEvaluation\output\20190720_133128\captures
+2019-07-20 13:31:30,320|I|Thread-1|[20190720_133128] create directory C:\projects\firstEvaluation\output\20190720_133128\logs
+2019-07-20 13:31:30,742|I|Thread-1|[20190720_133128] merging test data to tmp file C:\projects\firstEvaluation\output\20190720_133128\firstEvaluation.20190720_133130.001.xlsx
+2019-07-20 13:31:30,742|I|Thread-1|refetching data from C:\projects\firstEvaluation\artifact\data\firstEvaluation.data.xlsx
+2019-07-20 13:31:31,474|I|Thread-1|[20190720_133128] test script and test data merged to C:\projects\firstEvaluation\output\20190720_133128\firstEvaluation.20190720_133130.001.xlsx
+2019-07-20 13:31:32,166|I|Thread-1|STARTS
+2019-07-20 13:31:32,174|E|Thread-1|[ROW 13] wrong parameters specified for base.repeatUntil(steps,maxWaitMs): [, -1]
+2019-07-20 13:31:32,179|E|Thread-1|[20190720_133128] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\firstEvaluation\output\20190720_133128\firstEvaluation.20190720_133130.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:          [ROW 13] wrong parameters specified for base.repeatUntil(steps,maxWaitMs): [, -1]
+2019-07-20 13:31:32,183|E|Thread-1|[20190720_133128] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\firstEvaluation\output\20190720_133128\firstEvaluation.20190720_133130.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:          [ROW 13] wrong parameters specified for base.repeatUntil(steps,maxWaitMs): [, -1][ROW 13] wrong parameters specified for base.repeatUntil(steps,maxWaitMs): [, -1]
+2019-07-20 13:31:32,184|I|Thread-1|firstEvaluation.20190720_133130.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-07-20 13:31:34,447|I|Thread-1|[20190720_133128] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 5582 ms
+» Iterations:     [1] total 1
+» Test Steps:     0
+» Passed:         0
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\firstEvaluation\output\20190720_133128\firstEvaluation.20190720_133130.001.xlsx
+
+
+
+2019-07-20 13:31:34,814|I|main|[20190720_133128] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] now completed
+2019-07-20 13:31:34,815|I|main|[20190720_133128] all execution thread(s) have terminated
+2019-07-20 13:31:34,816|I|main|[20190720_133128] test run completed in about 6 seconds
+2019-07-20 13:31:34,923|I|main|No predefined nexial-setup found
+2019-07-20 13:31:34,960|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-20 13:31:34,961|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-20 13:31:34,962|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-20 13:31:34,963|I|main|generating HTML output for this execution to C:\projects\firstEvaluation\output\20190720_133128\execution-output.html
+2019-07-20 13:31:35,922|I|main|generating JUnit XML output for this execution to C:\projects\firstEvaluation\output\20190720_133128\junit.xml
+2019-07-20 13:31:35,969|I|main|generated JUnit report for this execution: C:\projects\firstEvaluation\output\20190720_133128\junit.xml
+2019-07-20 13:31:35,969|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-20 13:31:35,970|I|main|skipped email notification as configured
+2019-07-20 13:31:35,971|I|main|exiting Nexial...
+2019-07-20 13:31:35,973|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 6 sec.
+| » Test Steps....: 0
+| » Passed........: 0
+| » Failed........: 0
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core dev_0581-
+
+2019-07-20 13:31:35,973|E|main|failure found; success rate is 0.00%
+2019-07-20 13:31:35,975|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\firstEvaluation\output\20190720_133128
+NEXIAL_EXECUTION_HTML: C:\projects\firstEvaluation\output\20190720_133128\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\firstEvaluation\output\20190720_133128\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

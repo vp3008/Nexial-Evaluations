@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190723_112409" timestamp="2019-07-23T11:24:09" time="28.030" tests="33" errors="1">
+  <testsuite id="1" name="firstEvaluation" package="firstEvaluation" hostname="ATMECSINDT-043" timestamp="2019-07-23T11:24:10" time="24.145" tests="33" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-043" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="deepankar.pathal" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="firstEvaluation.xlsx" />
+      <property name="Logs" value="C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log" />
+      <property name="Data File" value="firstEvaluation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="JsonScenario" timestamp="2019-07-23T11:24:12" time="22.386">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="JsonScenario" timestamp="2019-07-23T11:24:14" time="20.860">
+      <system-out>Total : 11
+Passed: 11
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 3" name="Activity 3" classname="JsonScenario" timestamp="2019-07-23T11:24:21" time="13.950">
+      <failure type="failure found in test activity" message="1 of 4 FAILED. Check C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx for execution result, C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log for execution logs" />
+      <system-out>Total : 4
+Passed: 3
+Failed: 1
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 4" name="Activity 4" classname="JsonScenario" timestamp="2019-07-23T11:24:23" time="11.194">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 5" name="Activity 5" classname="JsonScenario" timestamp="2019-07-23T11:24:25" time="9.955">
+      <system-out>Total : 7
+Passed: 7
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="XMLScenario" timestamp="2019-07-23T11:24:30" time="4.722">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="XMLScenario" timestamp="2019-07-23T11:24:32" time="2.778">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+    <testcase id="Activity 4" name="Activity 4" classname="XMLScenario" timestamp="2019-07-23T11:24:33" time="1.525">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190723_112409\firstEvaluation.20190723_112410.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190723_112409\logs\nexial-20190723_112409.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

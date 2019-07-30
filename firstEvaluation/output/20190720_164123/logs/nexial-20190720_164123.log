@@ -1,0 +1,144 @@
+2019-07-20 16:41:24,107|I|Thread-1|(DELAYED) nexial-core dev_0581 starting up...
+2019-07-20 16:41:24,111|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1\AppData\Local\Temp\FUzSz\firstEvaluation.data.xlsx
+2019-07-20 16:41:24,111|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-20 16:41:24,111|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-20 16:41:24,111|I|Thread-1|(DELAYED) [20190720_164123] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] resolve RUN ID as 20190720_164123
+2019-07-20 16:41:24,111|I|Thread-1|(DELAYED) [20190720_164123] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] new thread started
+2019-07-20 16:41:24,112|I|Thread-1|No predefined nexial-setup found
+2019-07-20 16:41:24,166|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-20 16:41:24,168|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-20 16:41:24,173|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-20 16:41:24,189|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-20 16:41:24,898|I|Thread-1|[20190720_164123] executing C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx with 1 iteration(s)
+2019-07-20 16:41:24,902|I|Thread-1|[20190720_164123] create directory C:\projects\firstEvaluation\output\20190720_164123\captures
+2019-07-20 16:41:24,902|I|Thread-1|[20190720_164123] create directory C:\projects\firstEvaluation\output\20190720_164123\logs
+2019-07-20 16:41:25,206|I|Thread-1|[20190720_164123] merging test data to tmp file C:\projects\firstEvaluation\output\20190720_164123\firstEvaluation.20190720_164124.001.xlsx
+2019-07-20 16:41:25,207|I|Thread-1|refetching data from C:\projects\firstEvaluation\artifact\data\firstEvaluation.data.xlsx
+2019-07-20 16:41:25,367|I|Thread-1|[20190720_164123] test script and test data merged to C:\projects\firstEvaluation\output\20190720_164123\firstEvaluation.20190720_164124.001.xlsx
+2019-07-20 16:41:25,859|I|Thread-1|STARTS
+2019-07-20 16:41:25,882|I|Thread-1|firstEvaluation.20190720_164124.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-20 16:41:25,889|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario - executing test scenario
+2019-07-20 16:41:25,896|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 1 - executing activity
+2019-07-20 16:41:26,500|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 1|#  5|json.storeValues(json,jso - executing storeValues(json,jsonpath,var)($(syspath|data|fullpath)/example_2.json, products[supplier=Wisozk Inc].product_name, productNames)
+2019-07-20 16:41:26,582|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 1|#  5|json.storeValues(json,jso - PASS EXPECTED match against 'products[supplier=Wisozk Inc].product_name' stored to ${productNames}
+2019-07-20 16:41:27,184|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 1|#  6|base.verbose(text) - executing verbose(text)(${productNames})
+2019-07-20 16:41:27,186|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 1|#  6|base.verbose(text) - ["sildenafil citrate","Mountain Juniperus ashei"]
+2019-07-20 16:41:27,336|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 1|#  6|base.verbose(text) - PASS 
+2019-07-20 16:41:27,340|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2 - executing activity
+2019-07-20 16:41:27,943|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|#  7|json.storeValues(json,jso - executing storeValues(json,jsonpath,var)($(syspath|data|fullpath)/example_2.json, products[supplier=Wisozk Inc].quantity, quantityList)
+2019-07-20 16:41:27,947|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|#  7|json.storeValues(json,jso - PASS EXPECTED match against 'products[supplier=Wisozk Inc].quantity' stored to ${quantityList}
+2019-07-20 16:41:28,549|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|#  8|json.storeValues(json,jso - executing storeValues(json,jsonpath,var)($(syspath|data|fullpath)/example_2.json, products[supplier=Wisozk Inc].unit_cost, costList)
+2019-07-20 16:41:28,552|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|#  8|json.storeValues(json,jso - PASS EXPECTED match against 'products[supplier=Wisozk Inc].unit_cost' stored to ${costList}
+2019-07-20 16:41:29,153|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|#  9|base.save(var,value) - executing save(var,value)(unit_costList, [LIST${costList} => replaceRegex([$],)])
+2019-07-20 16:41:29,156|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|#  9|base.save(var,value) - PASS stored '[LIST["$10.47","$8.74"] => replaceRegex([$],)]' as ${unit_costList}
+2019-07-20 16:41:29,758|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 10|base.verbose(text) - executing verbose(text)(${unit_costList})
+2019-07-20 16:41:29,760|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 10|base.verbose(text) - [LIST["$10.47","$8.74"] => replaceRegex([$],)]
+2019-07-20 16:41:29,762|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 10|base.verbose(text) - PASS 
+2019-07-20 16:41:30,363|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 11|base.save(var,value) - executing save(var,value)(sumTotal, 0)
+2019-07-20 16:41:30,365|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 11|base.save(var,value) - PASS stored '0' as ${sumTotal}
+2019-07-20 16:41:30,966|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 12|base.save(var,value) - executing save(var,value)(counter, 0)
+2019-07-20 16:41:30,968|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 12|base.save(var,value) - PASS stored '0' as ${counter}
+2019-07-20 16:41:31,570|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 13|base.save(var,value) - executing save(var,value)(length, $(array|length|${quantityList}))
+2019-07-20 16:41:31,573|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 13|base.save(var,value) - PASS stored '2' as ${length}
+2019-07-20 16:41:32,175|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 14|base.save(var,value) - executing save(var,value)(mulValue, 0)
+2019-07-20 16:41:32,177|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 14|base.save(var,value) - PASS stored '0' as ${mulValue}
+2019-07-20 16:41:32,778|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 15|base.verbose(text) - executing verbose(text)(${unit_costList})
+2019-07-20 16:41:32,780|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 15|base.verbose(text) - [LIST["$10.47","$8.74"] => replaceRegex([$],)]
+2019-07-20 16:41:32,782|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 15|base.verbose(text) - PASS 
+2019-07-20 16:41:33,383|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 16|base.repeatUntil(steps,ma - executing repeatUntil(steps,maxWaitMs)(6, -1)
+2019-07-20 16:41:33,384|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 17|base.assertEqual(expected - 
+<[repeat-until] entering loop #1 --------------------------------------------->
+2019-07-20 16:41:33,385|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 17|base.assertEqual(expected - executing assertEqual(expected,actual)(${length}, ${counter})
+2019-07-20 16:41:33,387|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 18|base.save(var,value) - executing save(var,value)(unit_cost, $(array|item|${unit_costList}|${counter}))
+2019-07-20 16:41:33,389|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 18|base.save(var,value) - [repeat-until] PASS stored '"$10.47"' as ${unit_cost}
+2019-07-20 16:41:33,390|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 19|base.save(var,value) - executing save(var,value)(quantity, $(array|item|${quantityList}|${counter}))
+2019-07-20 16:41:33,445|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 19|base.save(var,value) - [repeat-until] PASS stored '261' as ${quantity}
+2019-07-20 16:41:33,446|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 20|base.save(var,value) - executing save(var,value)(mulValue, [NUMBER(${unit_cost}) => multiply(${quantity})])
+2019-07-20 16:41:33,459|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 20|base.save(var,value) - [repeat-until] PASS stored '2732.67' as ${mulValue}
+2019-07-20 16:41:33,459|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 21|base.save(var,value) - executing save(var,value)(sumTotal, [NUMBER(${sumTotal}) => add(${mulValue})])
+2019-07-20 16:41:33,469|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 21|base.save(var,value) - [repeat-until] PASS stored '2732.67' as ${sumTotal}
+2019-07-20 16:41:33,473|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 22|number.increment(var,amou - executing increment(var,amount)(counter, 1)
+2019-07-20 16:41:33,475|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 22|number.increment(var,amou - [repeat-until] PASS incremented ${counter} by 1 to 1
+2019-07-20 16:41:33,477|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 17|base.assertEqual(expected - 
+<[repeat-until] entering loop #2 --------------------------------------------->
+2019-07-20 16:41:33,480|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 17|base.assertEqual(expected - executing assertEqual(expected,actual)(${length}, ${counter})
+2019-07-20 16:41:33,481|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 18|base.save(var,value) - executing save(var,value)(unit_cost, $(array|item|${unit_costList}|${counter}))
+2019-07-20 16:41:33,489|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 18|base.save(var,value) - [repeat-until] PASS stored '"$8.74"' as ${unit_cost}
+2019-07-20 16:41:33,491|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 19|base.save(var,value) - executing save(var,value)(quantity, $(array|item|${quantityList}|${counter}))
+2019-07-20 16:41:33,496|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 19|base.save(var,value) - [repeat-until] PASS stored '292' as ${quantity}
+2019-07-20 16:41:33,498|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 20|base.save(var,value) - executing save(var,value)(mulValue, [NUMBER(${unit_cost}) => multiply(${quantity})])
+2019-07-20 16:41:33,505|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 20|base.save(var,value) - [repeat-until] PASS stored '2552.08' as ${mulValue}
+2019-07-20 16:41:33,508|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 21|base.save(var,value) - executing save(var,value)(sumTotal, [NUMBER(${sumTotal}) => add(${mulValue})])
+2019-07-20 16:41:33,510|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 21|base.save(var,value) - [repeat-until] PASS stored '5284.75' as ${sumTotal}
+2019-07-20 16:41:33,512|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 22|number.increment(var,amou - executing increment(var,amount)(counter, 1)
+2019-07-20 16:41:33,513|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 22|number.increment(var,amou - [repeat-until] PASS incremented ${counter} by 1 to 2
+2019-07-20 16:41:33,514|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 17|base.assertEqual(expected - 
+<[repeat-until] entering loop #3 --------------------------------------------->
+2019-07-20 16:41:33,515|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 17|base.assertEqual(expected - executing assertEqual(expected,actual)(${length}, ${counter})
+2019-07-20 16:41:33,525|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 16|base.repeatUntil(steps,ma - PASS repeat-until execution completed
+2019-07-20 16:41:34,127|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 23|base.verbose(text) - executing verbose(text)(${sumTotal})
+2019-07-20 16:41:34,128|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 23|base.verbose(text) - 5284.75
+2019-07-20 16:41:34,130|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 2|# 23|base.verbose(text) - PASS 
+2019-07-20 16:41:34,132|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3 - executing activity
+2019-07-20 16:41:34,735|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 24|base.save(var,value) - executing save(var,value)(jsonFile, $(syspath|data|fullpath)/example_2.json)
+2019-07-20 16:41:34,738|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 24|base.save(var,value) - PASS stored 'C:\projects\firstEvaluation\artifact\data\example_2.json' as ${jsonFile}
+2019-07-20 16:41:35,340|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 25|json.storeValues(json,jso - executing storeValues(json,jsonpath,var)($(syspath|data|fullpath)/example_2.json, products[unit_cost => ascending].product_name, productNames)
+2019-07-20 16:41:35,345|E|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 25|json.storeValues(json,jso - FAIL Unknown/unsupported function: ascending].product_name
+2019-07-20 16:41:35,946|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 26|base.verbose(text) - executing verbose(text)(${productNames})
+2019-07-20 16:41:35,948|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 26|base.verbose(text) - ["sildenafil citrate","Mountain Juniperus ashei"]
+2019-07-20 16:41:35,950|I|Thread-1|firstEvaluation.20190720_164124.001|JsonScenario|Activity 3|# 26|base.verbose(text) - PASS 
+2019-07-20 16:41:36,136|I|Thread-1|[firstEvaluation.20190720_164124.001|JsonScenario] saving test scenario
+2019-07-20 16:41:36,215|I|Thread-1|[20190720_164123] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\firstEvaluation\output\20190720_164123\firstEvaluation.20190720_164124.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 10322 ms
+» Test Steps:     16
+» Error(s):       1
+
+
+
+2019-07-20 16:41:38,136|I|Thread-1|[20190720_164123] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 14138 ms
+» Iterations:     [1] total 1
+» Test Steps:     16
+» Passed:         15
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\firstEvaluation\output\20190720_164123\firstEvaluation.20190720_164124.001.xlsx
+
+
+
+2019-07-20 16:41:38,955|I|main|[20190720_164123] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] now completed
+2019-07-20 16:41:38,955|I|main|[20190720_164123] all execution thread(s) have terminated
+2019-07-20 16:41:38,956|I|main|[20190720_164123] test run completed in about 15 seconds
+2019-07-20 16:41:39,007|I|main|No predefined nexial-setup found
+2019-07-20 16:41:39,037|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-20 16:41:39,037|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-20 16:41:39,038|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-20 16:41:39,038|I|main|generating HTML output for this execution to C:\projects\firstEvaluation\output\20190720_164123\execution-output.html
+2019-07-20 16:41:39,667|I|main|generating JUnit XML output for this execution to C:\projects\firstEvaluation\output\20190720_164123\junit.xml
+2019-07-20 16:41:39,712|I|main|generated JUnit report for this execution: C:\projects\firstEvaluation\output\20190720_164123\junit.xml
+2019-07-20 16:41:39,762|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-20 16:41:39,762|I|main|skipped email notification as configured
+2019-07-20 16:41:39,764|I|main|exiting Nexial...
+2019-07-20 16:41:39,765|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 15 sec.
+| » Test Steps....: 16
+| » Passed........: 15
+| » Failed........: 1
+| » Success Rate..: 93.75%
+\----------------------------------------------------------nexial-core dev_0581-
+
+2019-07-20 16:41:39,766|E|main|failure found; success rate is 93.75%
+2019-07-20 16:41:39,767|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\firstEvaluation\output\20190720_164123
+NEXIAL_EXECUTION_HTML: C:\projects\firstEvaluation\output\20190720_164123\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\firstEvaluation\output\20190720_164123\junit.xml
+NEXIAL_SUCCESS_RATE:   93.75%
+NEXIAL_EXIT_STATUS:    -13

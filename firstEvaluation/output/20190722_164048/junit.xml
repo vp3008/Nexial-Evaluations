@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190722_164048" timestamp="2019-07-22T16:40:48" time="21.023" tests="26" errors="2">
+  <testsuite id="1" name="firstEvaluation" package="firstEvaluation" hostname="DESKTOP-UOIH0F7" timestamp="2019-07-22T16:40:49" time="17.528" tests="26" errors="2">
+    <properties>
+      <property name="Run From" value="DESKTOP-UOIH0F7" />
+      <property name="Run OS" value="x86 Windows 10 10.0" />
+      <property name="Run User" value="Deepankar Pathak" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="firstEvaluation.xlsx" />
+      <property name="Logs" value="C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log" />
+      <property name="Data File" value="firstEvaluation.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="JsonScenario" timestamp="2019-07-22T16:40:50" time="16.446">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log</system-out>
+    </testcase>
+    <testcase id="Activity 2" name="Activity 2" classname="JsonScenario" timestamp="2019-07-22T16:40:51" time="15.027">
+      <system-out>Total : 11
+Passed: 11
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log</system-out>
+    </testcase>
+    <testcase id="Activity 3" name="Activity 3" classname="JsonScenario" timestamp="2019-07-22T16:40:58" time="8.330">
+      <failure type="failure found in test activity" message="1 of 4 FAILED. Check C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx for execution result, C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log for execution logs" />
+      <system-out>Total : 4
+Passed: 3
+Failed: 1
+Output: C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log</system-out>
+    </testcase>
+    <testcase id="Activity 4" name="Activity 4" classname="JsonScenario" timestamp="2019-07-22T16:41:00" time="5.910">
+      <system-out>Total : 2
+Passed: 2
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log</system-out>
+    </testcase>
+    <testcase id="Activity 5" name="Activity 5" classname="JsonScenario" timestamp="2019-07-22T16:41:02" time="4.702">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log</system-out>
+    </testcase>
+    <testcase id="Activity 1" name="Activity 1" classname="XMLScenario" timestamp="2019-07-22T16:41:06" time="0.713">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx for execution result, C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\firstEvaluation\output\20190722_164048\firstEvaluation.20190722_164049.001.xlsx
+Logs  : C:\projects\firstEvaluation\output\20190722_164048\logs\nexial-20190722_164048.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

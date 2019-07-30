@@ -1,0 +1,34 @@
+Evaluation on expressions, commands and built-in functions
+
+1. Create new project with any name
+2. Create three scenarios Json, XML, CSV 
+3. Each query should be one activity.
+4. Files should be in data folder and use built-in function $(syspath) while reading file.
+
+
+Example 1:-
+	Use Json Command, Json Expression
+	1. Find product_names which has suppplier - "Wisozk Inc".
+	2. Also find total cost for supplier "Wisozk Inc".  where total cost = quantity * unitCost.
+	3. List out all the "product_names" in ascending order w.r.t. price
+	4. List out suppliers for product_name "Dextromathorphan HBr".
+	5. List out all product_names having price less than "$20".
+
+
+Example 2:-
+	Use XML Command, XML Expression
+	1. List out title of all the books which published in December, 2000
+	2. Calculate total price of all the books.
+	3. Sort all the books in ascending order of publish date.(First published first in List)
+	4. List out title and author of all the books having genre "Computer".
+	5. Find title all the books written by "Corets, Eva".
+
+	
+Example 3:- 
+	Use CSV command, CSV expression
+	1. Get total rows and columns in file.
+	2. Get all the policyid's.
+	3. Get all of a countries starting name with 'C'.
+	5. Get All policyId's with country name "SUWANNEE COUNTY" and line "residential"
+	6. convert csv to Excel
+	7. Excel to csv

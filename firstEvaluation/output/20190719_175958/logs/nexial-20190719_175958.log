@@ -1,0 +1,87 @@
+2019-07-19 17:59:59,193|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-07-19 17:59:59,193|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1.PAT\AppData\Local\Temp\Yrafe\firstEvaluation.data.xlsx
+2019-07-19 17:59:59,193|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-19 17:59:59,193|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-19 17:59:59,193|I|Thread-1|(DELAYED) [20190719_175958] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] resolve RUN ID as 20190719_175958
+2019-07-19 17:59:59,193|I|Thread-1|(DELAYED) [20190719_175958] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] new thread started
+2019-07-19 17:59:59,193|I|Thread-1|No predefined nexial-setup found
+2019-07-19 17:59:59,286|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 17:59:59,286|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 17:59:59,286|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 17:59:59,302|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-19 18:00:00,099|I|Thread-1|[20190719_175958] executing C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx with 1 iteration(s)
+2019-07-19 18:00:00,099|I|Thread-1|[20190719_175958] create directory C:\projects\firstEvaluation\output\20190719_175958\captures
+2019-07-19 18:00:00,099|I|Thread-1|[20190719_175958] create directory C:\projects\firstEvaluation\output\20190719_175958\logs
+2019-07-19 18:00:00,724|I|Thread-1|[20190719_175958] merging test data to tmp file C:\projects\firstEvaluation\output\20190719_175958\firstEvaluation.20190719_180000.001.xlsx
+2019-07-19 18:00:00,724|I|Thread-1|refetching data from C:\projects\firstEvaluation\artifact\data\firstEvaluation.data.xlsx
+2019-07-19 18:00:01,052|I|Thread-1|[20190719_175958] test script and test data merged to C:\projects\firstEvaluation\output\20190719_175958\firstEvaluation.20190719_180000.001.xlsx
+2019-07-19 18:00:01,896|I|Thread-1|STARTS
+2019-07-19 18:00:01,912|I|Thread-1|firstEvaluation.20190719_180000.001 - executing iteration #1 of 1; Iteration Id 1
+2019-07-19 18:00:01,912|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario - executing test scenario
+2019-07-19 18:00:01,912|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 1 - executing activity
+2019-07-19 18:00:02,537|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 1|#  5|json.storeValues(json,jso - executing storeValues(json,jsonpath,var)($(syspath|data|fullpath)/example_2.json, products[supplier=Wisozk Inc].product_name, productNames)
+2019-07-19 18:00:02,615|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 1|#  5|json.storeValues(json,jso - PASS EXPECTED match against 'products[supplier=Wisozk Inc].product_name' stored to ${productNames}
+2019-07-19 18:00:03,225|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 1|#  6|base.verbose(text) - executing verbose(text)(${productNames})
+2019-07-19 18:00:03,225|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 1|#  6|base.verbose(text) - ["sildenafil citrate","Mountain Juniperus ashei"]
+2019-07-19 18:00:03,412|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 1|#  6|base.verbose(text) - PASS 
+2019-07-19 18:00:03,412|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 2 - executing activity
+2019-07-19 18:00:04,022|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 2|#  7|json.storeValues(json,jso - executing storeValues(json,jsonpath,var)($(syspath|data|fullpath)/example_2.json, products[supplier=Wisozk Inc].[multiply(quantity, unit_cost)], mulResult)
+2019-07-19 18:00:04,037|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 2|#  7|json.storeValues(json,jso - FAIL EXPECTED match against 'products[supplier=Wisozk Inc].[multiply(quantity, unit_cost)]' was not found
+2019-07-19 18:00:04,662|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 2|#  8|base.verbose(text) - executing verbose(text)(${mulResult})
+2019-07-19 18:00:04,662|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 2|#  8|base.verbose(text) - 
+2019-07-19 18:00:04,678|I|Thread-1|firstEvaluation.20190719_180000.001|JsonScenario|Activity 2|#  8|base.verbose(text) - PASS 
+2019-07-19 18:00:04,943|I|Thread-1|[firstEvaluation.20190719_180000.001|JsonScenario] saving test scenario
+2019-07-19 18:00:05,053|I|Thread-1|[20190719_175958] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\firstEvaluation\output\20190719_175958\firstEvaluation.20190719_180000.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 3125 ms
+» Test Steps:     4
+» Error(s):       1
+
+
+
+2019-07-19 18:00:08,940|I|Thread-1|[20190719_175958] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 9949 ms
+» Iterations:     [1] total 1
+» Test Steps:     4
+» Passed:         3
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\firstEvaluation\output\20190719_175958\firstEvaluation.20190719_180000.001.xlsx
+
+
+
+2019-07-19 18:00:08,971|I|main|[20190719_175958] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] now completed
+2019-07-19 18:00:08,971|I|main|[20190719_175958] all execution thread(s) have terminated
+2019-07-19 18:00:08,971|I|main|[20190719_175958] test run completed in about 10 seconds
+2019-07-19 18:00:09,034|I|main|No predefined nexial-setup found
+2019-07-19 18:00:09,081|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-19 18:00:09,081|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-19 18:00:09,081|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-19 18:00:09,081|I|main|generating HTML output for this execution to C:\projects\firstEvaluation\output\20190719_175958\execution-output.html
+2019-07-19 18:00:09,768|I|main|generating JUnit XML output for this execution to C:\projects\firstEvaluation\output\20190719_175958\junit.xml
+2019-07-19 18:00:09,816|I|main|generated JUnit report for this execution: C:\projects\firstEvaluation\output\20190719_175958\junit.xml
+2019-07-19 18:00:09,820|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-19 18:00:09,821|I|main|skipped email notification as configured
+2019-07-19 18:00:09,823|I|main|exiting Nexial...
+2019-07-19 18:00:09,824|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 10 sec.
+| » Test Steps....: 4
+| » Passed........: 3
+| » Failed........: 1
+| » Success Rate..: 75.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-07-19 18:00:09,824|E|main|failure found; success rate is 75.00%
+2019-07-19 18:00:09,830|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\firstEvaluation\output\20190719_175958
+NEXIAL_EXECUTION_HTML: C:\projects\firstEvaluation\output\20190719_175958\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\firstEvaluation\output\20190719_175958\junit.xml
+NEXIAL_SUCCESS_RATE:   75.00%
+NEXIAL_EXIT_STATUS:    -13

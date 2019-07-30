@@ -1,0 +1,74 @@
+2019-07-22 13:01:11,190|I|Thread-1|(DELAYED) nexial-core dev_0581 starting up...
+2019-07-22 13:01:11,193|I|Thread-1|(DELAYED) data file resolved as C:\Users\DEEPAN~1\AppData\Local\Temp\ZHVOY\firstEvaluation.data.xlsx
+2019-07-22 13:01:11,193|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-07-22 13:01:11,193|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-07-22 13:01:11,193|I|Thread-1|(DELAYED) [20190722_130110] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] resolve RUN ID as 20190722_130110
+2019-07-22 13:01:11,193|I|Thread-1|(DELAYED) [20190722_130110] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] new thread started
+2019-07-22 13:01:11,193|I|Thread-1|No predefined nexial-setup found
+2019-07-22 13:01:11,262|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-07-22 13:01:11,263|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-07-22 13:01:11,263|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-07-22 13:01:11,344|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-07-22 13:01:12,018|I|Thread-1|[20190722_130110] executing C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx with 1 iteration(s)
+2019-07-22 13:01:12,022|I|Thread-1|[20190722_130110] create directory C:\projects\firstEvaluation\output\20190722_130110\captures
+2019-07-22 13:01:12,023|I|Thread-1|[20190722_130110] create directory C:\projects\firstEvaluation\output\20190722_130110\logs
+2019-07-22 13:01:12,373|I|Thread-1|[20190722_130110] merging test data to tmp file C:\projects\firstEvaluation\output\20190722_130110\firstEvaluation.20190722_130112.001.xlsx
+2019-07-22 13:01:12,374|I|Thread-1|refetching data from C:\projects\firstEvaluation\artifact\data\firstEvaluation.data.xlsx
+2019-07-22 13:01:12,531|I|Thread-1|[20190722_130110] test script and test data merged to C:\projects\firstEvaluation\output\20190722_130110\firstEvaluation.20190722_130112.001.xlsx
+2019-07-22 13:01:13,071|I|Thread-1|STARTS
+2019-07-22 13:01:13,136|E|Thread-1|[20190722_130110] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\firstEvaluation\output\20190722_130110\firstEvaluation.20190722_130112.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:          invalid filter '$(array|item|${unit_costList}|${counter}': does not match required format
+2019-07-22 13:01:13,165|E|Thread-1|[20190722_130110] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\firstEvaluation\output\20190722_130110\firstEvaluation.20190722_130112.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:          invalid filter '$(array|item|${unit_costList}|${counter}': does not match required formatinvalid filter '$(array|item|${unit_costList}|${counter}': does not match required format
+2019-07-22 13:01:13,165|I|Thread-1|firstEvaluation.20190722_130112.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-07-22 13:01:15,127|I|Thread-1|[20190722_130110] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 4050 ms
+» Iterations:     [1] total 1
+» Test Steps:     0
+» Passed:         0
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\firstEvaluation\output\20190722_130110\firstEvaluation.20190722_130112.001.xlsx
+
+
+
+2019-07-22 13:01:15,999|I|main|[20190722_130110] [C:\projects\firstEvaluation\artifact\script\firstEvaluation.xlsx] now completed
+2019-07-22 13:01:16,000|I|main|[20190722_130110] all execution thread(s) have terminated
+2019-07-22 13:01:16,000|I|main|[20190722_130110] test run completed in about 5 seconds
+2019-07-22 13:01:16,052|I|main|No predefined nexial-setup found
+2019-07-22 13:01:16,070|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-07-22 13:01:16,078|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-07-22 13:01:16,083|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-07-22 13:01:16,083|I|main|generating HTML output for this execution to C:\projects\firstEvaluation\output\20190722_130110\execution-output.html
+2019-07-22 13:01:16,683|I|main|generating JUnit XML output for this execution to C:\projects\firstEvaluation\output\20190722_130110\junit.xml
+2019-07-22 13:01:16,727|I|main|generated JUnit report for this execution: C:\projects\firstEvaluation\output\20190722_130110\junit.xml
+2019-07-22 13:01:16,728|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-07-22 13:01:16,729|I|main|skipped email notification as configured
+2019-07-22 13:01:16,730|I|main|exiting Nexial...
+2019-07-22 13:01:16,731|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 5 sec.
+| » Test Steps....: 0
+| » Passed........: 0
+| » Failed........: 0
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core dev_0581-
+
+2019-07-22 13:01:16,732|E|main|failure found; success rate is 0.00%
+2019-07-22 13:01:16,733|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\firstEvaluation\output\20190722_130110
+NEXIAL_EXECUTION_HTML: C:\projects\firstEvaluation\output\20190722_130110\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\firstEvaluation\output\20190722_130110\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13
